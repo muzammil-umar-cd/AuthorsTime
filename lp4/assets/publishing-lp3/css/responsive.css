@@ -1,0 +1,827 @@
+@media (max-width: 1600px) {
+    .cta_img_left {
+        /* left: 12% */
+    }
+
+    .cta_img_right {
+        /* right: 11% */
+    }
+
+    .banner-left p span {
+        /* display: block */
+    }
+
+    .banner-left h1 {
+        font-size: 40px
+    }
+
+    .banner-left strong {
+        display: inherit;
+        margin-top: 10px
+    }
+}
+
+@media (max-width: 1440px) {
+    .banner .deal-img {
+        position: absolute;
+        bottom: -15%;
+        transform: scale(0.7);
+        left: 39%;
+    }
+
+    .cta_img_left {
+        left: 9%
+    }
+
+    .cta_img_right {
+        right: 8%
+    }
+
+    .banner {
+        background-position: 0px -62px
+    }
+
+    .banner {
+        padding: 30px 0
+    }
+
+    .banner-left h1 {
+        font-size: 44px
+    }
+
+    .main_cta {
+        background-position: right
+    }
+
+    .main-footer .col-lg-8 {
+        flex: 0 0 58.333333% !important;
+        max-width: 58.333333% !important;
+        z-index: 999
+    }
+}
+
+@media (max-width: 1280px) {
+    .form-back {
+        border: 5px solid var(--primary);
+        height: 400px;
+        width: 300px;
+        position: absolute;
+        left: 29%;
+
+        border-radius: 10px;
+    }
+
+    .cta_img_left {
+        left: 3%
+    }
+
+    .cta_img_right {
+        right: 2%
+    }
+
+    .cta_text_wrap h3 {
+        /* font-size: 25px */
+    }
+
+    .banner-right {
+        top: -190px
+    }
+}
+
+@media (max-width: 1199px) {
+    .banner .deal-img {
+        bottom: -25%;
+        left: 35%;
+    }
+
+    .form-back {
+        border: 5px solid var(--primary);
+        height: 450px;
+        width: 300px;
+        position: absolute;
+        left: 20%;
+
+        border-radius: 10px;
+    }
+
+    .banner {
+        background-position: bottom
+    }
+
+    .cta_img_left {
+        left: 2%;
+        top: 60px
+    }
+
+    .cta_img_left img,
+    .cta_img_right img {
+        width: 80%
+    }
+
+    .cta_img_right {
+        right: 1%;
+        top: 50px
+    }
+
+    .banner-left h1 {
+        font-size: 38px
+    }
+
+    .banFormTp h2 {
+        font-size: 26px
+    }
+
+    .banFormTp h3 {
+        font-size: 21px
+    }
+
+    .banFormTp-p {
+        font-size: 15px
+    }
+
+    .cta_text_wrap h3 {
+        /* font-size: 33px */
+    }
+
+    .cta_text_wrap p {
+        font-size: 15px
+    }
+
+    .cta_btn a {
+        padding: 14px 10px
+    }
+
+    .review-content {
+        padding: 20px
+    }
+
+    .review-content p {
+        font-size: 13px
+    }
+
+    .banner-right {
+        top: -140px
+    }
+}
+
+@media (max-width: 991px) {
+    .banner-left h1 .large-rate {
+        font-size: 38px;
+
+    }
+
+    .banner .deal-img {
+        display: none;
+    }
+
+    .listtabs li {
+        margin: 0;
+    }
+
+    .form-back {
+        display: none;
+    }
+
+    .main_cta:before {
+        display: none
+    }
+
+    .cta_img_left,
+    .cta_img_right {
+        display: none
+    }
+
+    .cta_text_wrap h3 {
+        font-size: 2rem
+    }
+
+    .cta_btn a {
+        font-size: 14px;
+        padding: 13px 24px;
+        margin: 0 11px;
+        line-height: 20px
+    }
+
+    .books-sec lazy-background .col-sm-4 {
+        flex: 100%;
+        max-width: 100%
+    }
+
+    .banner-left h1 {
+        font-size: 28px
+    }
+
+    .banFormTp h2 {
+        font-size: 19px
+    }
+
+    .banFormTp h3 {
+        font-size: 15px
+    }
+
+    .custombtn {
+        font-size: 17px
+    }
+
+    .sec-hdg {
+        font-size: 24px
+    }
+
+    .margin-left {
+        margin-left: 20px
+    }
+
+    .books-info p {
+        font-size: 14px
+    }
+
+    .books-p {
+        padding-right: 43px
+    }
+
+    .books-info {
+        margin: 0 0 0
+    }
+
+    .pack-sec {
+        background-position: right
+    }
+
+    .features-ul li {
+        padding: 10px 17px
+    }
+
+    .features-ul li .icn-tooltip .tooltip-innr {
+        font-size: 10px
+    }
+
+    .review-content {
+        padding: 12px
+    }
+
+    .review-content p {
+        font-size: 12px
+    }
+
+    .review-content {
+        /* min-height: 203px; */
+    }
+
+    .footer-form input::placeholder {
+        font-size: 12px
+    }
+
+    .footer-form textarea::placeholder {
+        font-size: 12px
+    }
+
+    .main-footer .col-lg-8 {
+        flex: 0 0 70.333333% !important;
+        max-width: 83.333333% !important;
+        z-index: 999
+    }
+
+    .main-footer::before {
+        top: -28px;
+        display: none;
+    }
+
+    .footer_logo {
+        display: none
+    }
+
+    .copyright_img {
+        text-align: center
+    }
+
+    .main_coryright {
+        height: 140px;
+        margin-bottom: 3rem;
+    }
+
+    .menu-inline {
+        margin-bottom: 7px
+    }
+
+    .features-ul li .icn-tooltip {
+        bottom: auto
+    }
+
+    .sec-pad {
+        padding: 40px 0 100px
+    }
+
+    .book_bestseller:before,
+    .book_bestseller .col-md-9:before {
+        display: none;
+    }
+
+    .sellbook .head-mm {
+        box-shadow: none;
+        text-align: center;
+    }
+
+    .sellbook {
+        padding-bottom: 15px;
+    }
+
+    .book_bestseller {
+        padding: 1rem 0;
+    }
+
+    .book_bestseller ul {
+        columns: 2;
+        display: block;
+        padding: 0;
+        text-align: center;
+    }
+
+    .listtabs li:before {
+        display: none;
+    }
+
+    .slides_bookplatform img {
+        margin: 0 30px;
+    }
+
+    .book_bestseller h3 {
+        display: block;
+    }
+
+    .book_bestseller h3:before {
+        width: 100%;
+    }
+
+    .booksdv img {
+        margin: auto;
+    }
+
+    .books_slides .books-boxes {
+        padding: 20px 20px;
+    }
+
+    .books_slides .books-boxes img {
+        /* margin: auto; */
+    }
+
+    .books_slides .books-boxes .ratings {
+        margin-top: -28px;
+    }
+
+    .books_slides .items {
+        margin-bottom: 30px;
+    }
+
+    .book_bestseller h3 {
+        text-align: center;
+        font-size: 2.5rem;
+    }
+
+    .sellbook .head-mm br {
+        display: none;
+    }
+
+    .brand-badge-row {
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    .badge-sec h3 {
+        font-size: 1.2rem;
+    }
+
+    .badge-sec p {
+        font-size: 0.9rem;
+        padding: 0.5rem 0;
+    }
+
+    .badge-sec {
+        margin-top: 0rem;
+    }
+
+    .mobile-services-slider {
+        display: block;
+    }
+
+    .desktop-services {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    /* .bottum-bar {
+        display: flex;
+    } */
+
+    .writing {
+        text-align: center;
+    }
+
+    .why-choose {
+        text-align: center;
+    }
+
+    .main_coryright {
+        margin-bottom: 3rem;
+    }
+
+    .form-back {
+        display: none;
+    }
+
+    .call-us-wraper {
+        padding: 0;
+        justify-content: center;
+    }
+    
+
+    .cta_btn a {
+        font-size: 13px;
+        padding: 11px 17px;
+        margin: 0 8px;
+        line-height: 19px
+    }
+
+    .main-footer-text h3 {
+        font-size: 24px;
+        line-height: 35px
+    }
+
+    .social .social-icons.padd-btd {
+        padding: 0;
+        border: 0;
+        text-align: center
+    }
+
+    .footer-logo {
+        text-align: center
+    }
+
+    .banner {
+        background-position: inherit
+    }
+
+    .banner-right {
+        margin-top: 35px;
+        position: initial
+    }
+
+    .brand-logo {
+        text-align: center;
+        margin: 15px 0;
+        max-width: 91%;
+        padding-left: 26px;
+    }
+
+    .cta_text_wrap p {
+        font-size: 13px
+    }
+
+    .banFormTp h2 {
+        font-size: 30px
+    }
+
+    .banFormTp h3 {
+        font-size: 24px
+    }
+
+    .banFormTp-p {
+        font-size: 17px
+    }
+
+    .banner {
+        padding: 45px 0
+    }
+
+    .books-sec lazy-background {
+        padding: 6% 0;
+        text-align: center
+    }
+
+    .sec_title_main {
+        margin-bottom: 25px
+    }
+
+    .features-ul li {
+        display: inline-block
+    }
+
+    .features-ul {
+        padding: 0
+    }
+
+    .features-ul li .icn-tooltip .tooltip-innr {
+        display: none
+    }
+
+    .sec-pad {
+        padding: 40px 0 10px
+    }
+
+    .why-choose .owl-carousel .owl-item img {
+        width: auto
+    }
+
+    .slide-image {
+        margin-top: 30px
+    }
+
+    .reviews img {
+        width: auto !important;
+        margin: 0 auto
+    }
+
+    .review-content {
+        height: 120px
+    }
+
+    .owl-theme .owl-nav {
+        position: unset;
+        width: auto;
+        transform: none;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 575px) {
+    .bnr-point li {
+        flex-basis: 100%;
+    }
+
+    .listtabs li a {
+        font-size: 1rem;
+    }
+
+    .slick-dots li button {
+        width: 15px;
+        height: 5px;
+    }
+
+    .form-back {
+        display: none;
+    }
+
+    .books-sec lazy-background :before {
+        display: none
+    }
+
+    .books-sec lazy-background :after {
+        display: none
+    }
+
+    .cta_btn a {
+        font-size: 11px
+    }
+
+    .cta_text_wrap p {
+        font-size: 12px
+    }
+
+    .cta_text_wrap h3 {
+        /* font-size: 28px */
+    }
+
+    .main-footer-text h3 {
+        font-size: 22px
+    }
+
+    .main-footer::before {
+        top: -3px
+    }
+
+    .call-us {
+        margin-right: 25px;
+        font-size: 11px
+    }
+
+    .call-us-wraper span {
+        font-size: 12px
+    }
+
+    iframe#launcher {
+        margin: 10px 20px 60px !important;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .form-back {
+        display: none;
+    }
+
+    .cta_text_wrap p {
+        font-size: 14px
+    }
+
+    .cta_text_wrap h3 {
+        font-size: 20px
+    }
+
+    .cta_btn a {
+        font-size: 10px;
+        margin: 0 3px
+    }
+
+    .popupform h2 {
+        font-size: 17px
+    }
+
+    .popupform ul li {
+        width: 100%
+    }
+
+    .popupform ul li.first,
+    .popupform ul li:nth-child(4) {
+        width: 100%
+    }
+
+    .popupform .fancybox-close-small {
+        right: 3px;
+        top: -5px
+    }
+
+    .review-content {
+        /* height: 155px */
+    }
+
+    .main-footer-text h3 {
+        font-size: 18px
+    }
+
+    .main-footer::before {
+        display: none
+    }
+
+    .main-footer .col-lg-8 {
+        flex: 100% !important;
+        max-width: 100% !important;
+        z-index: 999
+    }
+
+    .main-footer::after {
+        display: none
+    }
+
+    .copyright_text p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .badge-sec h3 {
+        font-size: 1.3rem;
+    }
+
+    .badge-sec p {
+        font-size: 0.9rem;
+        padding: 0.5rem 0;
+    }
+
+}
+
+
+@media (max-width: 414px) {
+    .floatbutton{
+        display: none;
+    }
+    .form-back {
+        display: none;
+    }
+
+    .cta_btn {
+        flex-direction: column
+    }
+
+    .cta_btn a {
+        font-size: 13px;
+        padding: 11px 29px;
+        margin: 0 0;
+        margin-bottom: 13px
+    }
+
+    .main_cta {
+        height: auto;
+        padding: 40px 0
+    }
+
+    .call-us {
+        /* display: none */
+    }
+
+    .call-us-wraper a {
+        font-size: 14px;
+    }
+
+    .call-us-wraper .custombtn {
+        width: 145px;
+    }
+
+    .banner-left h1 {
+        font-size: 28px
+    }
+
+    .banFormTp h2 {
+        font-size: 28px
+    }
+
+    .banFormTp h3 {
+        font-size: 21px
+    }
+
+    .banFormTp-p {
+        font-size: 13px
+    }
+
+    .sec-hdg {
+        font-size: 28px
+    }
+
+    .cta_text_wrap h3 {
+        /* font-size: 24px */
+    }
+
+    .books-info figure:before {
+        display: none
+    }
+
+    .pack-sec {
+        background-position: bottom
+    }
+    
+    .main-footer-text h3 {
+        font-size: 18px
+    }
+
+    .main-footer-text p {
+        font-size: 18px
+    }
+
+    .menu-inline li a {
+        font-size: 11px
+    }
+
+    .main_coryright {
+        height: 150px
+    }
+
+    .copyright_text p {
+        font-size: 13px;
+    }
+
+    .footer-form-control {
+        padding-top: 12px
+    }
+
+    .footer-form-textarea {
+        margin-top: 12px
+    }
+
+    .feature-sec.animatedParent>.sec-hd span {
+        font-size: 25px
+    }
+
+    .call-us-wraper {
+        justify-content: center
+    }
+
+    .brand-logo {
+        margin: 0px 0 20px;
+    }
+
+    .books-info figure {
+        display: inherit
+    }
+
+    .books-info p {
+        font-size: 12px
+    }
+
+    .banner-left h1 .large-rate {
+        font-size: 24px;
+        display: flex;
+        align-items: center;
+        padding-top: 4px;
+    }
+
+    .call-us-wraper img {
+        margin-right: 10px;
+    }
+
+    .banner-left h1 .veritcal-del {
+        font-size: 14px;
+        writing-mode: lr;
+        margin-left: 2px;
+    }
+
+}
+
+@media (max-width: 340px) {
+    .call-us-wraper a {
+        font-size: 11px;
+    }
+
+    .call-us-wraper .custombtn {
+        width: 104px;
+        height: 34px;
+    }
+
+}
