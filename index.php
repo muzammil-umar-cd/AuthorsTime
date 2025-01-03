@@ -17,7 +17,7 @@ include('includes/header.php');
          <div class="col-md-6">
             <div class="banner-head">
                <span></span>
-               <h1>Unveil Your Story With A Premium Book Writing Company</h1>
+               <h1>Unveil Your Story With A Premium Book Writing Company.</h1>
                <p>We provide custom book writing services without compromising on quality. Our professional book
                   writers always come up with out-of-the-box ideas and bring them to life with their engaging words.
                </p>
