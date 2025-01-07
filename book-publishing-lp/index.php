@@ -1913,7 +1913,7 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
         integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
         crossorigin="anonymous"></script>
     <!-- ZENDESK -->
-    <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=deb550d6-f418-45fd-967d-c97d0660281e"> </script>
+    <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=6da4305e-ec20-4d26-87a7-f52f10e35132"> </script>
     <!-- ZENDESK -->
     <script>
     $(document).ready(() => {
