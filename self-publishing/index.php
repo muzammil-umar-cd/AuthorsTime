@@ -1048,7 +1048,7 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                                         value="<?php echo $locationData->regionName; ?>" />
                                     <input type="hidden" name="url" value="<?php echo $currentFullURL ?>" />
                                     <div class="fld-inp">
-                                        <input type="text" name="name" required placeholder="Full Name *"
+                                        <input type="text" name="name" maxlength="30"required placeholder="Full Name *"
                                             data-cf-modified- />
                                     </div>
                                     <div class="fld-inp">

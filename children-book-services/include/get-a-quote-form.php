@@ -11,7 +11,7 @@
     <input type="hidden" name="bot_detector" value="" />
     
     <h3 class="text-white pb-3">Get a Free Qoute</h3>
-    <input type="text" class="required input-control input-color form-control" name="name" required id="name"
+    <input type="text" class="required input-control input-color form-control" name="name" maxlength="30"required id="name"
         placeholder="Full Name" />
     <input type="email" class="required input-control input-color form-control email" required name="email" placeholder="Email">
     <input type="tel" class="required input-control input-color form-control" required name="phone" placeholder="Phone Number">

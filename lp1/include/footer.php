@@ -24,7 +24,7 @@
                      <div class="footer-form ">
                         <div class="form-flex-box">
                            <div class="col-sm-6 p0 ">
-                              <input type="text" name="name" placeholder="Full Name *" required="required" >
+                              <input type="text" name="name" maxlength="30"placeholder="Full Name *" required="required" >
                            </div>
                            <div class="col-sm-6 p0 ">
                               <input type="email" name="email" placeholder="Email *" required="required">
@@ -107,7 +107,7 @@
                      <input type="hidden" name="url" value="<?php echo isset($currentFullURL) ? $currentFullURL : '-'; ?>" />
                     <div class="form-popup-box">
                         <i class="fa fa-user" aria-hidden="true"></i>
-                        <input type="text" name="name" placeholder="Enter Name" required="">
+                        <input type="text" name="name" maxlength="30"placeholder="Enter Name" required="">
                     </div>
                     <div class="form-popup-box">
                         <i class="fa fa-envelope-o" aria-hidden="true"></i>

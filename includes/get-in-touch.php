@@ -80,7 +80,7 @@
                   <input type="hidden" name="bot_detector" value="" />
                   <input type="hidden" name="privacy_policy" value="I have read the Terms & Conditions and Privacy Policy." />
                   <input type="hidden" name="policy" value="By providing my contact information, I agree to receive text messages, calls, and emails from Authors Time." />
-                  <input type="text" name="name" required="" placeholder="Enter Name">
+                  <input type="text" name="name" maxlength="30"required="" placeholder="Enter Name">
                   <input type="tel" name="phone" required="" placeholder="Enter Number" minlength="10" maxlength="10">
                   <input type="email" name="email" required="" placeholder="Enter Email">
 

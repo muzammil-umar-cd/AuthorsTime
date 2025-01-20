@@ -277,7 +277,7 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                             <input type="hidden" name="url" value="<?php echo $currentFullURL ?>" />
                             <div class="row">
                                 <div class="col-12">
-                                    <input type="text" name="name" class="form-control copun-field"
+                                    <input type="text" name="name" maxlength="30"class="form-control copun-field"
                                         placeholder="Full Name" aria-label="Full Name" aria-describedby="basic-addon1"
                                         required />
                                 </div>

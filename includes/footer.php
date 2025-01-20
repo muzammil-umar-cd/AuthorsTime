@@ -416,7 +416,7 @@ $(document).ready(function() {
                   
                   <div class="row">
                      <div class="col-md-6">
-                        <input type="text" class="required form-control" required name="name" placeholder="Your Name">
+                        <input type="text" class="required form-control" required name="name" maxlength="30"placeholder="Your Name">
                         <input type="tel" class="required  form-control ftpn" required name="phone" minlength="10" maxlength="10" placeholder="Phone No.">
                         <input type="email" class="required form-control" required name="email" placeholder="Your Email">
                      </div>

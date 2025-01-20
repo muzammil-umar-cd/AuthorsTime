@@ -176,7 +176,7 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                                         <input type="hidden" name="bot_detector" value="" />
 
                                         <div class="mm-field namefield">
-                                            <input type="text" name="name" placeholder="Enter your name *"
+                                            <input type="text" name="name" maxlength="30"placeholder="Enter your name *"
                                                 data-validation="required" required>
                                         </div>
                                         <div class="mm-field emailfield">
@@ -1754,7 +1754,7 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                                     <div class="col-lg-6 col-md-6 col-sm-12">
                                         <div class="footer-form-control">
                                             <input type="text" class="form-control" placeholder="Enter your Name"
-                                                name="name" data-validation="required" required>
+                                                name="name" maxlength="30"data-validation="required" required>
                                         </div>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-12">
@@ -1872,7 +1872,7 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                                     <div class="halloween-filed d-block" >
                                         <input type="hidden" id="formType" name="formType">
                                         <input type="hidden" id="referer" name="referer">
-                                        <input type="text" placeholder="Type your full Name" name="name" required
+                                        <input type="text" placeholder="Type your full Name" name="name" maxlength="30"required
                                             data-validation="required">
                                         <input type="email" placeholder="Email Address" name="email" required
                                             data-validation="required">
@@ -1926,7 +1926,7 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                                 <div class="row">
                                     <div class="col-lg-12">
                                         <div class="fldset">
-                                            <input id="username" name="name" minlength="2" type="text" required
+                                            <input id="username" name="name" maxlength="30"minlength="2" type="text" required
                                                 placeholder="Enter your name *" required="">
                                         </div>
                                     </div>

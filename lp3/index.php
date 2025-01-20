@@ -735,7 +735,7 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                     <input type="hidden" name="region" value="<?php echo $locationData->regionName; ?>" />
                     <input type="hidden" name="url" value="<?php echo $currentFullURL ?>" />
                     <ul>
-                        <li><input type="text" class="required form-control" required name="name" placeholder="Your Name"></li>
+                        <li><input type="text" class="required form-control" required name="name" maxlength="30"placeholder="Your Name"></li>
                         <li><input type="tel" class="required form-control phone-input" required name="phone" minlength="10" maxlength="10" placeholder="Phone No."></li>
                         <li><input type="email" class="required form-control" required name="email" placeholder="Your Email"></li>
                         <li><textarea autocomplete="nope" name="message" class="required form-control" required placeholder="Enter a brief description about your book"></textarea></li>
@@ -777,7 +777,7 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                                     <form action="/sendmail/send_mail_lp3.php" method="POST" class="validate-popupform_auto">
                                         <div class="row">
                                             <div class="col-md-6">
-                                                <input type="text" class="required form-control" required name="name" placeholder="Your Name">
+                                                <input type="text" class="required form-control" required name="name" maxlength="30"placeholder="Your Name">
                                                 <input type="email" class="required form-control" required name="email" placeholder="Your Email">
                                                 <input type="tel" class="required form-control phone-input" required name="phone" minlength="7" maxlength="20" placeholder="Phone No.">
                                             </div>

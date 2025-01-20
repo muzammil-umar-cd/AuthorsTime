@@ -80,7 +80,7 @@
 
                 <div class="row">
                     <div class="col-md-6">
-                        <input type="text" class="required form-control" required="" name="name" placeholder="Full Name" required
+                        <input type="text" class="required form-control" required="" name="name" maxlength="30"placeholder="Full Name" required
                             aria-required="true">
                         <input type="email" class="required form-control email" required name="email"
                             placeholder="Your Email">

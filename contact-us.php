@@ -73,7 +73,7 @@ include ('includes/header.php');
             <input type="hidden" name="policy" value="By providing my contact information, I agree to receive text messages, calls, and emails from Authors Time." />
             <div class="row">
               <div class="col-md-6">
-                <input type="text" name="name" required required="" placeholder="Enter Your Name*">
+                <input type="text" name="name" maxlength="30"required required="" placeholder="Enter Your Name*">
               </div>
               <div class="col-md-6">
                 <input type="email" name="email" required required="" placeholder="Enter Your Email*">

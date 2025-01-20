@@ -142,7 +142,7 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                                 <input type="hidden" name="url" value="<?php echo isset($currentFullURL) ? $currentFullURL : '-'; ?>" />
                                 <div class="form-group custom-form form-icon">
                                     <i class="fa fa-user" aria-hidden="true"></i>
-                                    <input type="text" name="name" class="custom-field" placeholder="Enter Your Name"
+                                    <input type="text" name="name" maxlength="30"class="custom-field" placeholder="Enter Your Name"
                                         data-validation="required" required />
                                 </div>
                                 <div class="form-group custom-form form-icon">
@@ -1225,7 +1225,7 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                                 <div class="col-lg-12 col-sm-12 col-12">
                                     <div class="form-group">
                                         <span><i class="far fa-user"></i></span>
-                                        <input type="text" name="name" class="form-control" placeholder="Name"
+                                        <input type="text" name="name" maxlength="30"class="form-control" placeholder="Name"
                                             data-validation="required" required>
                                     </div>
                                 </div>
@@ -1378,7 +1378,7 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                                 <div class="col-md-12">
                                     <div class="khaplu_field khaplu_field2" id="khaplu_fld1">
                                         <i class="fa fa-user" aria-hidden="true"></i>
-                                        <input type="text" name="name" id="name" placeholder="Full Name *" required>
+                                        <input type="text" name="name" maxlength="30"id="name" placeholder="Full Name *" required>
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-12 pr-md-1">

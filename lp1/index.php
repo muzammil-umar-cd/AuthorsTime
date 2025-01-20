@@ -66,7 +66,7 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                            <input type="hidden" name="url" value="<?php echo isset($currentFullURL) ? $currentFullURL : '-'; ?>" />
                            <div class="fld-inp">
                               <!-- <i class="fa fa-user" aria-hidden="true"></i> -->
-                              <input type="text" name="name" required="" placeholder="Full Name *" >
+                              <input type="text" name="name" maxlength="30"required="" placeholder="Full Name *" >
                            </div>
                            <div class="fld-inp">
                               <!-- <i class="fa fa-phone" aria-hidden="true"></i> -->
