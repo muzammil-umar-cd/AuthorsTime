@@ -142,12 +142,9 @@ if(isset($_POST['send_reserve_req'])){
     $mail->addCC('haseeb@niversetech.com');
     $mail->addCC('uzair@marketingnotch.com');
     $mail->addCC('muzammil@niversetech.com');
-    $mail->addCC('nawab@niversetech.com');
     $mail->addCC('shakeel@coredigitals.biz');
     // SALES
     $mail->addCC('hassan.jamali@niversetech.com');
-    $mail->addCC('amin@niversetech.com');
-    $mail->addCC('nabiha@coredigitals.biz');
     
     // Content
     $mail->isHTML(true); // Set email format to plain text

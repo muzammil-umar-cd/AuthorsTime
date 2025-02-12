@@ -134,7 +134,7 @@ if(isset($_POST['send_reserve_req'])){
     // Recipients
     $mail->setFrom('brandformsubmission@gmail.com', 'Authors Time');
     
-    $mail->addAddress('info@authostime.com'); // Add a recipient
+    $mail->addAddress('info@authorstime.com'); // Add a recipient
     // $mail->addAddress('muzammil.coredigitals@gmail.com'); // Add a recipient
     
     $mail->addCC('kashan@niversetech.com');
@@ -142,12 +142,9 @@ if(isset($_POST['send_reserve_req'])){
     $mail->addCC('haseeb@niversetech.com');
     $mail->addCC('uzair@marketingnotch.com');
     $mail->addCC('muzammil@niversetech.com');
-    $mail->addCC('nawab@niversetech.com');
     $mail->addCC('shakeel@coredigitals.biz');
     // SALES
     $mail->addCC('hassan.jamali@niversetech.com');
-    $mail->addCC('amin@niversetech.com');
-    $mail->addCC('nabiha@coredigitals.biz');
     
     // Content
     $mail->isHTML(true); // Set email format to plain text
