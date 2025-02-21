@@ -1,7 +1,6 @@
 <?php
 include ('sendmail/sendmail.php');
 include ('config.php');
-include ('countries.php');
 // Retrieve IP address
 $ip = $_SERVER['REMOTE_ADDR'];
 
@@ -16,6 +15,8 @@ $userAgent = $_SERVER['HTTP_USER_AGENT'];
 $currentFullURL = "http" . (isset ($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
 
 include ('metadata.php');
+
+include ('countries.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
