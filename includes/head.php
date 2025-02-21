@@ -1,6 +1,7 @@
 <?php
 include ('sendmail/sendmail.php');
 include ('config.php');
+include ('countries.php');
 // Retrieve IP address
 $ip = $_SERVER['REMOTE_ADDR'];
 
