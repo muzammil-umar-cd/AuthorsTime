@@ -6,7 +6,7 @@ use PHPMailer\PHPMailer\Exception;
 
 require 'vendor/autoload.php';
 
-if (isset($_POST['sendmail'])) {
+if (isset($_POST['sendmail']) || $_SERVER['REQUEST_METHOD'] === 'POST') {
     
     if($_POST['bot_detector'] == ''){
     
