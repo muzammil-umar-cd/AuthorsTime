@@ -25,85 +25,86 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    
-   <link rel="shortcut icon" href="https://authorstime.com/fav.png" type="image/x-icon">
-   <link rel="icon" href="https://authorstime.com/fav.png" type="image/x-icon">
+
+    <link rel="shortcut icon" href="https://authorstime.com/fav.png" type="image/x-icon">
+    <link rel="icon" href="https://authorstime.com/fav.png" type="image/x-icon">
     <link class="lazy" rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link class="lazy" rel="stylesheet" type="text/css" href="assets/css/style-web5e1f.css?v=2">
     <link class="lazy" rel="stylesheet" type="text/css" href="assets/css/responsive.css">
     <link class="lazy" rel="stylesheet" type="text/css" href="assets/css/indent6040.css?v=123">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&amp;display=swap"
+        rel="stylesheet">
     <title> BECOME A BEST SELLING AUTHOR AT 50% OFF! </title>
 
     <script>
-        // Speed optimization plugin script
-        (function() {
-            // Minify CSS function
-            function minifyCSS(css) {
-                // Implement your CSS minification logic here
-                // For example, you can use a library like CleanCSS
-                return css; // Placeholder, replace with actual minified CSS
-            }
+    // Speed optimization plugin script
+    (function() {
+        // Minify CSS function
+        function minifyCSS(css) {
+            // Implement your CSS minification logic here
+            // For example, you can use a library like CleanCSS
+            return css; // Placeholder, replace with actual minified CSS
+        }
 
-            // Minify JavaScript function
-            function minifyJS(js) {
-                // Implement your JavaScript minification logic here
-                // For example, you can use a library like UglifyJS
-                return js; // Placeholder, replace with actual minified JS
-            }
+        // Minify JavaScript function
+        function minifyJS(js) {
+            // Implement your JavaScript minification logic here
+            // For example, you can use a library like UglifyJS
+            return js; // Placeholder, replace with actual minified JS
+        }
 
-            // Compress image function
-            function compressImage(image) {
-                // Implement your image compression logic here
-                // For example, you can use a library like TinyPNG
-                return image; // Placeholder, replace with actual compressed image
-            }
+        // Compress image function
+        function compressImage(image) {
+            // Implement your image compression logic here
+            // For example, you can use a library like TinyPNG
+            return image; // Placeholder, replace with actual compressed image
+        }
 
-            // Execute optimization tasks when the page loads
-            window.onload = function() {
-                // Minify CSS
-                var stylesheets = document.querySelectorAll('link[rel="stylesheet"]');
-                stylesheets.forEach(function(stylesheet) {
-                    stylesheet.href = minifyCSS(stylesheet.href);
-                });
+        // Execute optimization tasks when the page loads
+        window.onload = function() {
+            // Minify CSS
+            var stylesheets = document.querySelectorAll('link[rel="stylesheet"]');
+            stylesheets.forEach(function(stylesheet) {
+                stylesheet.href = minifyCSS(stylesheet.href);
+            });
 
-                // Minify JavaScript
-                var scripts = document.querySelectorAll('script');
-                scripts.forEach(function(script) {
-                    script.innerHTML = minifyJS(script.innerHTML);
-                });
+            // Minify JavaScript
+            var scripts = document.querySelectorAll('script');
+            scripts.forEach(function(script) {
+                script.innerHTML = minifyJS(script.innerHTML);
+            });
 
-                // Compress images
-                var images = document.querySelectorAll('img');
-                images.forEach(function(image) {
-                    image.src = compressImage(image.src);
-                });
-            };
-        })();
+            // Compress images
+            var images = document.querySelectorAll('img');
+            images.forEach(function(image) {
+                image.src = compressImage(image.src);
+            });
+        };
+    })();
     </script>
     <style>
-        footer img {
-            max-width: 250px;
+    footer img {
+        max-width: 250px;
+    }
+
+    .phone-input {
+        padding-left: 45px;
+    }
+
+    .iti {
+        width: 100%;
+        z-index: 99999999999 !important;
+    }
+
+    @media only screen and (max-width: 600px) {
+        .indent_inn h1 b {
+            font-size: 24px;
         }
 
-        .phone-input {
-            padding-left: 45px;
+        .indent_inn small {
+            font-size: 14px;
         }
-
-        .iti {
-            width: 100%;
-            z-index: 99999999999 !important;
-        }
-
-        @media only screen and (max-width: 600px) {
-            .indent_inn h1 b {
-                font-size: 24px;
-            }
-
-            .indent_inn small {
-                font-size: 14px;
-            }
-        }
+    }
     </style>
 
     <!-- Start of designneshelp Zendesk Widget script -->
@@ -123,7 +124,10 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                     </a>
                 </div>
                 <div class="col-md-3">
-                    <a href="tel:(929) 379-9764" class="btn btn-blue" title="Contact Number" ><img src="http://localhost/Authors-Time/lp3/assets/images/phone.png" alt="" style="max-width: 36px;margin-bottom: 0px;vertical-align: inherit;margin-right: 0px;"> (929) 379-9764</a>
+                    <a href="tel:(929) 379-9764" class="btn btn-blue" title="Contact Number"><img
+                            src="http://localhost/Authors-Time/lp3/assets/images/phone.png" alt=""
+                            style="max-width: 36px;margin-bottom: 0px;vertical-align: inherit;margin-right: 0px;"> (929)
+                        379-9764</a>
                 </div>
                 <div class="col-md-5">
                     <ul class="text-right">
@@ -133,7 +137,9 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                             <a href="javascript:" class="chat" onclick="showLiveChatWidget()">Live Chat</a>
                         </li>
                         <li>
-                            <a href="javascript:" class="btn btn-blue various" data-fancybox="" data-options='{"touch" : false}' title="Activate Your Coupon" data-src="#popupform">Activate Your Coupon</a>
+                            <a href="javascript:" class="btn btn-blue various" data-fancybox=""
+                                data-options='{"touch" : false}' title="Activate Your Coupon"
+                                data-src="#popupform">Activate Your Coupon</a>
                         </li>
                     </ul>
                 </div>
@@ -153,9 +159,11 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
             </ul>
             <div class="btn-block">
 
-                <a href="javascript:$zopim.livechat.window.toggle();" class=" btn btn-yellow various" onclick="showLiveChatWidget()">Live Chat</a>
+                <a href="javascript:$zopim.livechat.window.toggle();" class=" btn btn-yellow various"
+                    onclick="showLiveChatWidget()">Live Chat</a>
 
-                <a href="javascript:;" class="btn btn-transparent various" data-fancybox="" data-options='{"touch" : false}' title="Activate Your Coupon" data-src="#popupform"> Activate Your
+                <a href="javascript:;" class="btn btn-transparent various" data-fancybox=""
+                    data-options='{"touch" : false}' title="Activate Your Coupon" data-src="#popupform"> Activate Your
                     Coupon</a>
             </div>
             <div class="star">
@@ -220,11 +228,14 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                         From writing your book and editing and proofreading it, we’ll also ensure that your book is
                         successfully published and marketed to jumpstart your career as a bestselling writer.</p>
                     <div class="btn-block">
-                        <a href="javascript:;" class="btn btn-yellow various" data-fancybox="" data-options='{"touch" : false}' data-src="#popupform" title="Activate Your Coupon">Book
+                        <a href="javascript:;" class="btn btn-yellow various" data-fancybox=""
+                            data-options='{"touch" : false}' data-src="#popupform" title="Activate Your Coupon">Book
                             Consultation</a>
-                        <a href="javascript:$zopim.livechat.window.toggle();" class="btn btn-blue chat" onclick="showLiveChatWidget()"><img src="assets/images/chat.png" alt="">
+                        <a href="javascript:$zopim.livechat.window.toggle();" class="btn btn-blue chat"
+                            onclick="showLiveChatWidget()"><img src="assets/images/chat.png" alt="">
                             Chat with us</a>
-                        <a href="tel:(929) 379-9764" class="btn btn-blue various" title="Contact Number"> (929) 379-9764</a>
+                        <a href="tel:(929) 379-9764" class="btn btn-blue various" title="Contact Number"> (929)
+                            379-9764</a>
                     </div>
                 </div>
             </div>
@@ -236,10 +247,13 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                 <div class="col-md-10 offset-1">
                     <h2>Have a draft and are looking <br> to get it published?</h2>
                     <div class="btn-block">
-                        <a href="javascript:;" class="btn btn-grey various" data-fancybox="" data-options='{"touch" : false}' data-src="#popupform" title="Get a Free Quote">Get a Free
+                        <a href="javascript:;" class="btn btn-grey various" data-fancybox=""
+                            data-options='{"touch" : false}' data-src="#popupform" title="Get a Free Quote">Get a Free
                             Quote</a>
-                        <a href="javascript:$zopim.livechat.window.toggle();" class="btn btn-yellow chat" onclick="showLiveChatWidget()">Live Chat</a>
-                        <a href="tel:(929) 379-9764" class="btn btn-blue various" title="Contact Number"> (929) 379-9764</a>
+                        <a href="javascript:$zopim.livechat.window.toggle();" class="btn btn-yellow chat"
+                            onclick="showLiveChatWidget()">Live Chat</a>
+                        <a href="tel:(929) 379-9764" class="btn btn-blue various" title="Contact Number"> (929)
+                            379-9764</a>
                     </div>
                 </div>
             </div>
@@ -378,33 +392,35 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                         </a>
                     </div>
                     <div class="col-md-3">
-                        <a href="/book-promotions" class="text-dark">    
-                        <div class="box">
-                            <img src="assets/images/ghost-1.png" alt="">
-                            <h4>Book <br> Promotion
-                            </h4>
-                            <p>For maximum reach, we'll effectively promote your book.</p>
-                            <h6>07</h6>
-                        </div>
+                        <a href="/book-promotions" class="text-dark">
+                            <div class="box">
+                                <img src="assets/images/ghost-1.png" alt="">
+                                <h4>Book <br> Promotion
+                                </h4>
+                                <p>For maximum reach, we'll effectively promote your book.</p>
+                                <h6>07</h6>
+                            </div>
                         </a>
                     </div>
                     <div class="col-md-3">
-                        <a href="/proofreading" class="text-dark">    
-                        <div class="box">
-                            <img src="assets/images/ghost-1.png" alt="">
-                            <h4>Proofreading &amp; <br> Formatting:
-                            </h4>
-                            <p>The finishing touches of your complete book.</p>
-                            <h6>08</h6>
-                        </div>
+                        <a href="/proofreading" class="text-dark">
+                            <div class="box">
+                                <img src="assets/images/ghost-1.png" alt="">
+                                <h4>Proofreading &amp; <br> Formatting:
+                                </h4>
+                                <p>The finishing touches of your complete book.</p>
+                                <h6>08</h6>
+                            </div>
                         </a>
                     </div>
                 </div>
                 <div class="btn-block text-center sizee">
-                    <a href="javascript:;" class="btn btn-yellow various" data-fancybox="" data-options='{"touch" : false}' data-src="#popupform">Activate Your Coupon</a>
-                    <a href="jjavascript:$zopim.livechat.window.toggle();" class="btn btn-blue chat" onclick="showLiveChatWidget()"><img src="assets/images/chat.png" alt="">
+                    <a href="javascript:;" class="btn btn-yellow various" data-fancybox=""
+                        data-options='{"touch" : false}' data-src="#popupform">Activate Your Coupon</a>
+                    <a href="jjavascript:$zopim.livechat.window.toggle();" class="btn btn-blue chat"
+                        onclick="showLiveChatWidget()"><img src="assets/images/chat.png" alt="">
                         Chat with us</a>
-                    <a href="tel:(929) 379-9764" class="btn btn-blue various" title="Contact Number" > (929) 379-9764</a>
+                    <a href="tel:(929) 379-9764" class="btn btn-blue various" title="Contact Number"> (929) 379-9764</a>
                 </div>
             </div>
         </div>
@@ -426,12 +442,16 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
 
                         </ul>
                         <div class="btn-block ">
-                            <a style="background-color: #973024;" href="javascript:;" class="btn btn-blue various" data-fancybox="" data-options='{"touch" : false}' data-src="#popupform" title="Get a Free Quote">Get a
+                            <a style="background-color: #973024;" href="javascript:;" class="btn btn-blue various"
+                                data-fancybox="" data-options='{"touch" : false}' data-src="#popupform"
+                                title="Get a Free Quote">Get a
                                 Free Quote</a>
 
-                            <a href="javascript:$zopim.livechat.window.toggle();" class="btn btn-transparent chat" onclick="showLiveChatWidget()"><img src="assets/images/blue-chat.png" alt="">
+                            <a href="javascript:$zopim.livechat.window.toggle();" class="btn btn-transparent chat"
+                                onclick="showLiveChatWidget()"><img src="assets/images/blue-chat.png" alt="">
                                 Chat with us</a>
-                            <a style="background-color: #973024;" href="tel:(929) 379-9764" class="btn btn-blue various" title="Contact Number"> (929) 379-9764</a>
+                            <a style="background-color: #973024;" href="tel:(929) 379-9764" class="btn btn-blue various"
+                                title="Contact Number"> (929) 379-9764</a>
                         </div>
                     </div>
                 </div>
@@ -516,11 +536,18 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
 
                         <li>
                             <img src="assets/images/ftr-mail.png" alt="">
-                            <a class="d-block mb-1" href="mailto:info@authorstime.com"><img src="http://localhost/Authors-Time/lp3/assets/images/email.png" alt="" style="max-width: 36px;margin-bottom: 0px;vertical-align: inherit;margin-right: 0px;">
+                            <a class="d-block mb-1" href="mailto:info@authorstime.com"><img
+                                    src="http://localhost/Authors-Time/lp3/assets/images/email.png" alt=""
+                                    style="max-width: 36px;margin-bottom: 0px;vertical-align: inherit;margin-right: 0px;">
                                 info@authorstime.com</a>
-                            <a class="d-block mb-1" href="tel:(929) 379-9764"><img src="http://localhost/Authors-Time/lp3/assets/images/phone.png" alt="" style="max-width: 36px;margin-bottom: 0px;vertical-align: inherit;margin-right: 0px;">
+                            <a class="d-block mb-1" href="tel:(929) 379-9764"><img
+                                    src="http://localhost/Authors-Time/lp3/assets/images/phone.png" alt=""
+                                    style="max-width: 36px;margin-bottom: 0px;vertical-align: inherit;margin-right: 0px;">
                                 (929) 379-9764</a>
-                            <a class="d-block mb-1" href="javascript:;"><img src="http://localhost/Authors-Time/lp3/assets/images/address.png" alt="" style="max-width: 36px;margin-bottom: 0px;vertical-align: inherit;">112 West 34th Street 18th & 17th
+                            <a class="d-block mb-1" href="javascript:;"><img
+                                    src="http://localhost/Authors-Time/lp3/assets/images/address.png" alt=""
+                                    style="max-width: 36px;margin-bottom: 0px;vertical-align: inherit;">112 West 34th
+                                Street 18th & 17th
                                 Floors 10120 New York United States
 
                             </a>
@@ -550,175 +577,175 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
 
 
     <style>
-        .popupform.bfriday,
-        div#bouncepopupform.popupform.bfriday {
+    .popupform.bfriday,
+    div#bouncepopupform.popupform.bfriday {
+        width: 100%;
+        max-width: 824px;
+        border: none;
+        transform: scale(0.8);
+        padding: 34px 0;
+        box-shadow: none;
+        background: url(assets/images/nyk_bg85.png) no-repeat scroll right top;
+        background-size: contain;
+    }
+
+    div#bouncepopupform.popupform.bfriday {
+        height: auto;
+        left: 0;
+        margin: 0 auto;
+        right: 0;
+    }
+
+    .popupform.bfriday .custom-pop {
+        padding: 30px;
+        width: 100%;
+        position: relative;
+        border-radius: 20px;
+        max-width: 400px;
+        float: right;
+    }
+
+    .popupform.bfriday h2,
+    div#bouncepopupform.popupform.bfriday h2 {
+        font-size: 24px;
+        font-weight: 600;
+        color: #fff;
+        border: none;
+        margin-top: 0;
+        text-transform: none;
+        text-align: center;
+        padding: 0;
+        margin-bottom: 10px;
+    }
+
+    .popupform.bfriday h2 span,
+    div#bouncepopupform.popupform.bfriday h2 span {
+        color: #f53230;
+        vertical-align: baseline;
+        font-weight: bold;
+        display: inline-block;
+        font-size: inherit;
+    }
+
+    .popupform.bfriday h3 span,
+    div#bouncepopupform.popupform.bfriday h3 span {
+        background: #ff950b;
+        padding: 0px 10px;
+        display: inline-block;
+    }
+
+    .popupform.bfriday li {
+        margin-bottom: 10px !important;
+        width: 100% !important;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 0;
+    }
+
+    .popupform.bfriday li input,
+    .popupform.bfriday li textarea {
+        width: 100% !important;
+        background: #fff;
+        padding: 10px !important;
+        font-size: 14px;
+    }
+
+    .popupform.bfriday li input[type="submit"],
+    div#bouncepopupform.popupform.bfriday li input[type="submit"] {
+        background: #dd2b2b;
+        color: #fff;
+        font-size: 18px;
+        border-radius: 30px;
+        border-color: #dd2b2b;
+        margin-top: 0;
+        margin-right: 0;
+        text-transform: none;
+        margin-left: 0;
+        letter-spacing: normal;
+        font-weight: 500;
+    }
+
+    .popupform.bfriday h3,
+    div#bouncepopupform.popupform.bfriday h3 {
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+        font-weight: 600;
+        color: #fff;
+        margin-top: 0;
+        margin-left: 0;
+        margin-bottom: 18px;
+    }
+
+    .popupform.bfriday h6 span {
+        vertical-align: baseline;
+        background: #f9b128;
+        display: inline-block;
+        color: #000;
+        padding: 0 5px;
+        font-weight: bold;
+    }
+
+    .popupform.bfriday li textarea,
+    div#bouncepopupform.popupform.bfriday li textarea {
+        height: 90px;
+    }
+
+    .popupform.bfriday li:last-child {
+        margin-bottom: 0 !important;
+    }
+
+    .popupform.bfriday .fancybox-close-small {
+        top: 20px;
+        border: none;
+        text-align: center;
+        background: #f53230;
+    }
+
+    .popupform.bfriday .fancybox-close-small:after {
+        right: 0;
+        left: 0;
+        width: 100%;
+        top: 5px;
+        color: #fff;
+    }
+
+    .popupform.bfriday form.validate-popupform {
+        padding-right: 0;
+    }
+
+    @media only screen and (max-width:850px) {
+        .indent-pop ul li.ind-line {
             width: 100%;
-            max-width: 824px;
-            border: none;
-            transform: scale(0.8);
-            padding: 34px 0;
-            box-shadow: none;
-            background: url(assets/images/nyk_bg85.png) no-repeat scroll right top;
-            background-size: contain;
         }
 
+        .indent-pop ul li.ind-line.last {
+            width: 100%;
+        }
+
+        .popupform.bfriday,
         div#bouncepopupform.popupform.bfriday {
-            height: auto;
-            left: 0;
-            margin: 0 auto;
-            right: 0;
+            width: 90%;
+            background: #080800;
+            transform: none;
         }
 
         .popupform.bfriday .custom-pop {
-            padding: 30px;
-            width: 100%;
-            position: relative;
-            border-radius: 20px;
-            max-width: 400px;
-            float: right;
+            max-width: 100%;
+            float: none;
+            box-shadow: none;
+            border: 5px solid #b59c3e;
         }
 
-        .popupform.bfriday h2,
-        div#bouncepopupform.popupform.bfriday h2 {
-            font-size: 24px;
-            font-weight: 600;
-            color: #fff;
-            border: none;
-            margin-top: 0;
-            text-transform: none;
-            text-align: center;
-            padding: 0;
-            margin-bottom: 10px;
-        }
-
-        .popupform.bfriday h2 span,
-        div#bouncepopupform.popupform.bfriday h2 span {
-            color: #f53230;
-            vertical-align: baseline;
-            font-weight: bold;
-            display: inline-block;
-            font-size: inherit;
-        }
-
-        .popupform.bfriday h3 span,
-        div#bouncepopupform.popupform.bfriday h3 span {
-            background: #ff950b;
-            padding: 0px 10px;
-            display: inline-block;
-        }
-
-        .popupform.bfriday li {
-            margin-bottom: 10px !important;
-            width: 100% !important;
-            margin-left: 0;
-            margin-right: 0;
-            margin-top: 0;
-        }
-
-        .popupform.bfriday li input,
-        .popupform.bfriday li textarea {
-            width: 100% !important;
-            background: #fff;
-            padding: 10px !important;
-            font-size: 14px;
-        }
-
-        .popupform.bfriday li input[type="submit"],
-        div#bouncepopupform.popupform.bfriday li input[type="submit"] {
-            background: #dd2b2b;
-            color: #fff;
+        .popupform.bfriday h3 {
             font-size: 18px;
-            border-radius: 30px;
-            border-color: #dd2b2b;
-            margin-top: 0;
-            margin-right: 0;
-            text-transform: none;
-            margin-left: 0;
-            letter-spacing: normal;
-            font-weight: 500;
         }
 
-        .popupform.bfriday h3,
-        div#bouncepopupform.popupform.bfriday h3 {
-            width: 100%;
+        .popupform.bfriday h2 {
             font-size: 20px;
-            text-align: center;
-            font-weight: 600;
-            color: #fff;
-            margin-top: 0;
-            margin-left: 0;
-            margin-bottom: 18px;
+            line-height: normal;
         }
-
-        .popupform.bfriday h6 span {
-            vertical-align: baseline;
-            background: #f9b128;
-            display: inline-block;
-            color: #000;
-            padding: 0 5px;
-            font-weight: bold;
-        }
-
-        .popupform.bfriday li textarea,
-        div#bouncepopupform.popupform.bfriday li textarea {
-            height: 90px;
-        }
-
-        .popupform.bfriday li:last-child {
-            margin-bottom: 0 !important;
-        }
-
-        .popupform.bfriday .fancybox-close-small {
-            top: 20px;
-            border: none;
-            text-align: center;
-            background: #f53230;
-        }
-
-        .popupform.bfriday .fancybox-close-small:after {
-            right: 0;
-            left: 0;
-            width: 100%;
-            top: 5px;
-            color: #fff;
-        }
-
-        .popupform.bfriday form.validate-popupform {
-            padding-right: 0;
-        }
-
-        @media only screen and (max-width:850px) {
-            .indent-pop ul li.ind-line {
-                width: 100%;
-            }
-
-            .indent-pop ul li.ind-line.last {
-                width: 100%;
-            }
-
-            .popupform.bfriday,
-            div#bouncepopupform.popupform.bfriday {
-                width: 90%;
-                background: #080800;
-                transform: none;
-            }
-
-            .popupform.bfriday .custom-pop {
-                max-width: 100%;
-                float: none;
-                box-shadow: none;
-                border: 5px solid #b59c3e;
-            }
-
-            .popupform.bfriday h3 {
-                font-size: 18px;
-            }
-
-            .popupform.bfriday h2 {
-                font-size: 20px;
-                line-height: normal;
-            }
-        }
+    }
     </style>
     <div class="popupform bfriday" id="popupform" style="display: none;">
         <div class="custom-pop">
@@ -735,12 +762,16 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                     <input type="hidden" name="region" value="<?php echo $locationData->regionName; ?>" />
                     <input type="hidden" name="url" value="<?php echo $currentFullURL ?>" />
                     <ul>
-                        <li><input type="text" class="required form-control" required name="name" maxlength="30"placeholder="Your Name"></li>
-                        <li><input type="tel" class="required form-control phone-input" required name="phone" minlength="10" maxlength="10" placeholder="Phone No."></li>
-                        <li><input type="email" class="required form-control" required name="email" placeholder="Your Email"></li>
-                        <li><textarea autocomplete="nope" name="message" class="required form-control" required placeholder="Enter a brief description about your book"></textarea></li>
+                        <li><input type="text" class="required form-control" required name="name" maxlength="30"
+                                placeholder="Your Name"></li>
+                        <li><input type="tel" class="required form-control phone-input" required name="phone"
+                                minlength="10" maxlength="10" placeholder="Phone No."></li>
+                        <li><input type="email" class="required form-control" required name="email"
+                                placeholder="Your Email"></li>
+                        <li><textarea autocomplete="nope" name="message" class="required form-control" required
+                                placeholder="Enter a brief description about your book"></textarea></li>
                         <li>
-                            <input type="submit" class="btn" name="send_reserve_req" value="Submit Now">
+                            <input type="submit" class="btn btn-submit" name="send_reserve_req" value="Submit Now">
                         </li>
                     </ul>
                 </form>
@@ -774,27 +805,40 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                                     <h2>Activate Your Coupon</h2>
                                     <p>You are just one step away from becoming a great author. Share your idea with us
                                         today!</p>
-                                    <form action="/sendmail/send_mail_lp3.php" method="POST" class="validate-popupform_auto">
+                                    <form action="/sendmail/send_mail_lp3.php" method="POST"
+                                        class="validate-popupform_auto">
                                         <div class="row">
                                             <div class="col-md-6">
-                                                <input type="text" class="required form-control" required name="name" maxlength="30"placeholder="Your Name">
-                                                <input type="email" class="required form-control" required name="email" placeholder="Your Email">
-                                                <input type="tel" class="required form-control phone-input" required name="phone" minlength="7" maxlength="20" placeholder="Phone No.">
+                                                <input type="text" class="required form-control" required name="name"
+                                                    maxlength="30" placeholder="Your Name">
+                                                <input type="email" class="required form-control" required name="email"
+                                                    placeholder="Your Email">
+                                                <input type="tel" class="required form-control phone-input" required
+                                                    name="phone" minlength="7" maxlength="20" placeholder="Phone No.">
                                             </div>
                                             <div class="col-md-6">
-                                                <textarea autocomplete="nope" name="message" class="required form-control" required placeholder="Enter a brief description about your book"></textarea>
+                                                <textarea autocomplete="nope" name="message"
+                                                    class="required form-control" required
+                                                    placeholder="Enter a brief description about your book"></textarea>
                                             </div>
 
                                             <div class="col-md-12 text-center">
-                                                <input type="submit" class="btn" name="send_data" value="Submit Now">
+                                                <input type="submit" class="btn btn-submit" name="send_data"
+                                                    value="Submit Now">
                                                 <div class="d-none">
                                                     <div class="ip2locfields">
-                                                        <input type="hidden" name="ip2loc_ip" value="" class="ip2loc_ip">
-                                                        <input type="hidden" name="ip2loc_isp" value="" class="ip2loc_isp">
-                                                        <input type="hidden" name="ip2loc_org" value="" class="ip2loc_org">
-                                                        <input type="hidden" name="ip2loc_country" value="" class="ip2loc_country">
-                                                        <input type="hidden" name="ip2loc_region" value="" class="ip2loc_region">
-                                                        <input type="hidden" name="ip2loc_city" value="" class="ip2loc_city">
+                                                        <input type="hidden" name="ip2loc_ip" value=""
+                                                            class="ip2loc_ip">
+                                                        <input type="hidden" name="ip2loc_isp" value=""
+                                                            class="ip2loc_isp">
+                                                        <input type="hidden" name="ip2loc_org" value=""
+                                                            class="ip2loc_org">
+                                                        <input type="hidden" name="ip2loc_country" value=""
+                                                            class="ip2loc_country">
+                                                        <input type="hidden" name="ip2loc_region" value=""
+                                                            class="ip2loc_region">
+                                                        <input type="hidden" name="ip2loc_city" value=""
+                                                            class="ip2loc_city">
                                                         <input type="hidden" name="landing_page" value="">
                                                         <input type="hidden" name="server_ip" value=''>
                                                         <input type="hidden" name="referrer_url" value="">
@@ -830,53 +874,53 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
     <script class="lazy" type="text/javascript" src="assets/js/indent.js"></script>
 
     <style>
-        .iti.iti--allow-dropdown.iti--show-flags.iti--inline-dropdown {
-            width: 100%;
-            margin-bottom: 12px;
-            margin-top: 0px;
-        }
+    .iti.iti--allow-dropdown.iti--show-flags.iti--inline-dropdown {
+        width: 100%;
+        margin-bottom: 12px;
+        margin-top: 0px;
+    }
 
-        .iti__flag-box,
-        .iti__country-name {
-            color: black;
-        }
+    .iti__flag-box,
+    .iti__country-name {
+        color: black;
+    }
 
-        .iti--allow-dropdown input.iti__tel-input,
-        .iti--allow-dropdown input.iti__tel-input[type=text],
-        .iti--allow-dropdown input.iti__tel-input[type=tel],
-        .iti--show-selected-dial-code input.iti__tel-input,
-        .iti--show-selected-dial-code input.iti__tel-input[type=text],
-        .iti--show-selected-dial-code input.iti__tel-input[type=tel] {
-            padding-left: 45px !important;
-        }
+    .iti--allow-dropdown input.iti__tel-input,
+    .iti--allow-dropdown input.iti__tel-input[type=text],
+    .iti--allow-dropdown input.iti__tel-input[type=tel],
+    .iti--show-selected-dial-code input.iti__tel-input,
+    .iti--show-selected-dial-code input.iti__tel-input[type=text],
+    .iti--show-selected-dial-code input.iti__tel-input[type=tel] {
+        padding-left: 45px !important;
+    }
     </style>
 
     <script>
-        $('.livechat, .live_chatt, .chatt, .chat').click(function() {
-            $zopim.livechat.window.toggle();
-            return false;
-        });
-        $(window).on('load', function() {
-            $zopim.livechat.window.show();
-        });
-        zE(function() {
-            zE.activate();
-        });
-        zE(function() {
-            $zopim(function() {
-                $zopim.livechat.setOnUnreadMsgs(unread);
+    $('.livechat, .live_chatt, .chatt, .chat').click(function() {
+        $zopim.livechat.window.toggle();
+        return false;
+    });
+    $(window).on('load', function() {
+        $zopim.livechat.window.show();
+    });
+    zE(function() {
+        zE.activate();
+    });
+    zE(function() {
+        $zopim(function() {
+            $zopim.livechat.setOnUnreadMsgs(unread);
 
-                function unread(number) {
-                    if (number >= 1) {
-                        $zopim.livechat.window.toggle();
-                        $zopim.livechat.window.show();
-                    }
+            function unread(number) {
+                if (number >= 1) {
+                    $zopim.livechat.window.toggle();
+                    $zopim.livechat.window.show();
                 }
-            });
+            }
         });
+    });
     </script>
-<script>
-    $(document).ready(function(){
+    <script>
+    $(document).ready(function() {
         var header = $("header");
         var sticky = header.offset().top;
 
@@ -895,7 +939,7 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
         var keyCode = event.keyCode || event.which;
         var keyValue = String.fromCharCode(keyCode);
         var isValid = /^\d+$/.test(keyValue);
-        
+
         if (!isValid) {
             $('#phone-error').show();
             event.preventDefault();
@@ -903,5 +947,21 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
             $('#phone-error').hide();
         }
     });
-</script>
+    $(document).ready(function() {
+        $(".btn-submit").click(function(e) {
+            var button = $(this);
+            var form = button.closest("form")[0];
+
+            if (form.checkValidity()) {
+                e.preventDefault();
+
+                button.prop("disabled", true).text("Submitting...");
+                form.submit();
+            } else {
+                form.classList.add("was-validated");
+            }
+        });
+    });
+    </script>
+
 </html>

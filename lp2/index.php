@@ -18,29 +18,31 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
 ?>
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
     <meta charset="utf-8">
     <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-    <meta http-equiv="Cache-Control" content="max-age=0, must-revalidate"/>
-    <meta http-equiv="Pragma" content="no-cache"/>
+    <meta http-equiv="Cache-Control" content="max-age=0, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
     <meta http-equiv="Expires" content="0" />
     <title>Professional Publishing Services for Authors | Your Book, Your Voice</title>
-    <meta name="description" content="Explore our comprehensive publishing services for authors. From manuscript to market, we guide your book's journey with expertise and care." />
+    <meta name="description"
+        content="Explore our comprehensive publishing services for authors. From manuscript to market, we guide your book's journey with expertise and care." />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-   <link rel="shortcut icon" href="https://authorstime.com/fav.png" type="image/x-icon">
-   <link rel="icon" href="https://authorstime.com/fav.png" type="image/x-icon">
+
+    <link rel="shortcut icon" href="https://authorstime.com/fav.png" type="image/x-icon">
+    <link rel="icon" href="https://authorstime.com/fav.png" type="image/x-icon">
     <!-- All Plugin Css -->
     <link rel="stylesheet" type="text/css" href="css/plugin.css">
     <link rel="stylesheet" type="text/css" href="css/slick.css">
     <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
     <link rel="stylesheet" type="text/css" href="css/custom.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
-   <!-- Include the Font Awesome CSS from the free CDN -->
+    <!-- Include the Font Awesome CSS from the free CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
-    
+
 </head>
 
 <body>
@@ -110,7 +112,8 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                             <li data-aos="fade-right" data-aos-delay="400" data-aos-duration="1500"
                                 class="aos-init aos-animate">
                                 <div class="contact-btn-main">
-                                    <a href="tel:(929) 379-9764"><i class="fa-solid fa-phone fa-bounce"></i> &nbsp;(929) 379-9764 </a>
+                                    <a href="tel:(929) 379-9764"><i class="fa-solid fa-phone fa-bounce"></i> &nbsp;(929)
+                                        379-9764 </a>
                                 </div>
                             </li>
                         </ul>
@@ -134,16 +137,22 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                             <form class="leadForm" action="../sendmail/send_mail_lp2.php" method="post">
                                 <!--hidden required values-->
                                 <input type="hidden" name="ip_address" value="<?php echo isset($ip) ? $ip : '-'; ?>" />
-                                <input type="hidden" name="city" value="<?php echo isset($locationData->city) ? $locationData->city : '-'; ?>" />
-                                <input type="hidden" name="country" value="<?php echo isset($locationData->country) ? $locationData->country : '-'; ?>" />
-                                <input type="hidden" name="internet_connection" value="<?php echo isset($locationData->isp) ? $locationData->isp : '-'; ?>" />
-                                <input type="hidden" name="zipcode" value="<?php echo isset($locationData->zip) ? $locationData->zip : '-'; ?>" />
-                                <input type="hidden" name="region" value="<?php echo isset($locationData->regionName) ? $locationData->regionName : '-'; ?>" />
-                                <input type="hidden" name="url" value="<?php echo isset($currentFullURL) ? $currentFullURL : '-'; ?>" />
+                                <input type="hidden" name="city"
+                                    value="<?php echo isset($locationData->city) ? $locationData->city : '-'; ?>" />
+                                <input type="hidden" name="country"
+                                    value="<?php echo isset($locationData->country) ? $locationData->country : '-'; ?>" />
+                                <input type="hidden" name="internet_connection"
+                                    value="<?php echo isset($locationData->isp) ? $locationData->isp : '-'; ?>" />
+                                <input type="hidden" name="zipcode"
+                                    value="<?php echo isset($locationData->zip) ? $locationData->zip : '-'; ?>" />
+                                <input type="hidden" name="region"
+                                    value="<?php echo isset($locationData->regionName) ? $locationData->regionName : '-'; ?>" />
+                                <input type="hidden" name="url"
+                                    value="<?php echo isset($currentFullURL) ? $currentFullURL : '-'; ?>" />
                                 <div class="form-group custom-form form-icon">
                                     <i class="fa fa-user" aria-hidden="true"></i>
-                                    <input type="text" name="name" maxlength="30"class="custom-field" placeholder="Enter Your Name"
-                                        data-validation="required" required />
+                                    <input type="text" name="name" maxlength="30" class="custom-field"
+                                        placeholder="Enter Your Name" data-validation="required" required />
                                 </div>
                                 <div class="form-group custom-form form-icon">
                                     <i class="fa fa-envelope fs-18" aria-hidden="true"></i>
@@ -161,8 +170,8 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                                         placeholder="Message"></textarea>
                                 </div>
                                 <div class="form-group ">
-                                    <button type="submit" name="send_reserve_req" class="gets_quotes form-btn"
-                                        value="Get in Touch">SUBMIT</button>
+                                    <button type="submit" name="send_reserve_req"
+                                        class="gets_quotes form-btn btn-submit" value="Get in Touch">SUBMIT</button>
                                     <div id="formResult"></div>
                                 </div>
                             </form>
@@ -362,7 +371,8 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                                 class="aos-init aos-animate"><a href="javascript:;" class="chatt popup-btn">Get
                                     Started</a></li>
                             <li data-aos="fade-right" data-aos-delay="100" data-aos-duration="1500"
-                                class="aos-init aos-animate"><a href="tel:(929) 379-9764" class="white_btn">(929) 379-9764</a></li>
+                                class="aos-init aos-animate"><a href="tel:(929) 379-9764" class="white_btn">(929)
+                                    379-9764</a></li>
                             <li data-aos="fade-right" data-aos-delay="400" data-aos-duration="1500"
                                 class="aos-init aos-animate"><a href="javascript:;" class="chatLink chatt">Talk
                                     To Us</a></li>
@@ -826,7 +836,8 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
             <div class="sec_title" data-aos="fade-down" data-aos-duration="1500">
                 <h4>Your Book Deserves the Best</h4>
                 <h3>Elevate Your Words with Authors Time</h3>
-                <p>Ready to turn your manuscript into a masterpiece and share your story with the world? Authors Time is your trusted partner on the path to success when it comes to publishing a book through
+                <p>Ready to turn your manuscript into a masterpiece and share your story with the world? Authors Time is
+                    your trusted partner on the path to success when it comes to publishing a book through
                     Amazon. Start your publishing journey with us and experience the difference that expertise, passion,
                     and dedication can make. Let's create literary magic together!
                 </p>
@@ -1185,7 +1196,8 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                                             class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                             class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
                                 </div>
-                                <p>"I've worked with various publishers throughout my career, but Authors Time stands out. Their dedication to maintaining author rights while
+                                <p>"I've worked with various publishers throughout my career, but Authors Time stands
+                                    out. Their dedication to maintaining author rights while
                                     providing a wide range of publishing services is impressive. They've helped me
                                     expand my reach and grow my readership. Highly recommended!"
                                 </p>
@@ -1212,21 +1224,28 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="footer-form-wrap" data-form-type="footer_form">
-                        <form class="leadForm" action="../sendmail/send_mail_lp2.php" method="post" enctype="multipart/form-data">
+                        <form class="leadForm" action="../sendmail/send_mail_lp2.php" method="post"
+                            enctype="multipart/form-data">
                             <!--hidden required values-->
                             <input type="hidden" name="ip_address" value="<?php echo isset($ip) ? $ip : '-'; ?>" />
-                            <input type="hidden" name="city" value="<?php echo isset($locationData->city) ? $locationData->city : '-'; ?>" />
-                            <input type="hidden" name="country" value="<?php echo isset($locationData->country) ? $locationData->country : '-'; ?>" />
-                            <input type="hidden" name="internet_connection" value="<?php echo isset($locationData->isp) ? $locationData->isp : '-'; ?>" />
-                            <input type="hidden" name="zipcode" value="<?php echo isset($locationData->zip) ? $locationData->zip : '-'; ?>" />
-                            <input type="hidden" name="region" value="<?php echo isset($locationData->regionName) ? $locationData->regionName : '-'; ?>" />
-                            <input type="hidden" name="url" value="<?php echo isset($currentFullURL) ? $currentFullURL : '-'; ?>" />
+                            <input type="hidden" name="city"
+                                value="<?php echo isset($locationData->city) ? $locationData->city : '-'; ?>" />
+                            <input type="hidden" name="country"
+                                value="<?php echo isset($locationData->country) ? $locationData->country : '-'; ?>" />
+                            <input type="hidden" name="internet_connection"
+                                value="<?php echo isset($locationData->isp) ? $locationData->isp : '-'; ?>" />
+                            <input type="hidden" name="zipcode"
+                                value="<?php echo isset($locationData->zip) ? $locationData->zip : '-'; ?>" />
+                            <input type="hidden" name="region"
+                                value="<?php echo isset($locationData->regionName) ? $locationData->regionName : '-'; ?>" />
+                            <input type="hidden" name="url"
+                                value="<?php echo isset($currentFullURL) ? $currentFullURL : '-'; ?>" />
                             <div class="row">
                                 <div class="col-lg-12 col-sm-12 col-12">
                                     <div class="form-group">
                                         <span><i class="far fa-user"></i></span>
-                                        <input type="text" name="name" maxlength="30"class="form-control" placeholder="Name"
-                                            data-validation="required" required>
+                                        <input type="text" name="name" maxlength="30" class="form-control"
+                                            placeholder="Name" data-validation="required" required>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-sm-12 col-12">
@@ -1260,7 +1279,8 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                                     <div class="btn-box">
                                         <div id="formResult"></div>
                                         <div class="clearfix"></div>
-                                        <button type="submit" name="send_reserve_req">Submit Now</button>
+                                        <button type="submit" class="btn-submit" name="send_reserve_req">Submit
+                                            Now</button>
                                     </div>
                                 </div>
                             </div>
@@ -1291,11 +1311,13 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                                         class="fab fa-instagram"></i></a>
                             </li>
                             <li>
-                                <a title="LinkedIn" target="_blank" href="https://www.linkedin.com/company/authors-time/"><i
+                                <a title="LinkedIn" target="_blank"
+                                    href="https://www.linkedin.com/company/authors-time/"><i
                                         class="fab fa-linkedin"></i></a>
                             </li>
                             <li>
-                                <a title="Trustpilot" target="_blank" href="https://www.trustpilot.com/review/authorstime.com"><i
+                                <a title="Trustpilot" target="_blank"
+                                    href="https://www.trustpilot.com/review/authorstime.com"><i
                                         class="fa fa-star"></i></a>
                             </li>
                         </ul>
@@ -1305,26 +1327,30 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                     <div class="footer-contact">
                         <ul class="footer-address">>
                             <li>
-                                <i class="fas fa-map-marker-alt"></i> 112 West 34th Street 18th & 17th Floors 10120 New York United States
+                                <i class="fas fa-map-marker-alt"></i> 112 West 34th Street 18th & 17th Floors 10120 New
+                                York United States
                             </li>
                             <li>
                                 <a href="tel:(929) 379-9764"><i class="fas fa-phone-volume"></i>(929) 379-9764</a>
                             </li>
                             <li>
-                                <a href="mailto:info@authorstime.com"><i class="fas fa-envelope-open"></i><span class="__cf_email__" data-cfemail="">info@authorstime.com</span></a>
+                                <a href="mailto:info@authorstime.com"><i class="fas fa-envelope-open"></i><span
+                                        class="__cf_email__" data-cfemail="">info@authorstime.com</span></a>
                             </li>
 
                             <li> <img src="images/payment.png" loading="eager"> </li>
                         </ul>
                         <ul class="footer-social d-none">
                             <li>
-                                <a href="https://www.facebook.com/authorsstime"><i class="fab fa-facebook-square"></i></a>
+                                <a href="https://www.facebook.com/authorsstime"><i
+                                        class="fab fa-facebook-square"></i></a>
                             </li>
                             <li>
                                 <a href="https://www.instagram.com/authorstime/"><i class="fab fa-instagram"></i></a>
                             </li>
                             <li>
-                                <a href="https://www.linkedin.com/company/authors-time/"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://www.linkedin.com/company/authors-time/"><i
+                                        class="fab fa-linkedin"></i></a>
                             </li>
                             <li>
                                 <a href="#"><img src="images/trust.html" alt="" loading="eager" class="img-fluid"></a>
@@ -1368,17 +1394,24 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                         <form action="../sendmail/send_mail_lp2.php" method="post">
                             <!--hidden required values-->
                             <input type="hidden" name="ip_address" value="<?php echo isset($ip) ? $ip : '-'; ?>" />
-                            <input type="hidden" name="city" value="<?php echo isset($locationData->city) ? $locationData->city : '-'; ?>" />
-                            <input type="hidden" name="country" value="<?php echo isset($locationData->country) ? $locationData->country : '-'; ?>" />
-                            <input type="hidden" name="internet_connection" value="<?php echo isset($locationData->isp) ? $locationData->isp : '-'; ?>" />
-                            <input type="hidden" name="zipcode" value="<?php echo isset($locationData->zip) ? $locationData->zip : '-'; ?>" />
-                            <input type="hidden" name="region" value="<?php echo isset($locationData->regionName) ? $locationData->regionName : '-'; ?>" />
-                            <input type="hidden" name="url" value="<?php echo isset($currentFullURL) ? $currentFullURL : '-'; ?>" />
+                            <input type="hidden" name="city"
+                                value="<?php echo isset($locationData->city) ? $locationData->city : '-'; ?>" />
+                            <input type="hidden" name="country"
+                                value="<?php echo isset($locationData->country) ? $locationData->country : '-'; ?>" />
+                            <input type="hidden" name="internet_connection"
+                                value="<?php echo isset($locationData->isp) ? $locationData->isp : '-'; ?>" />
+                            <input type="hidden" name="zipcode"
+                                value="<?php echo isset($locationData->zip) ? $locationData->zip : '-'; ?>" />
+                            <input type="hidden" name="region"
+                                value="<?php echo isset($locationData->regionName) ? $locationData->regionName : '-'; ?>" />
+                            <input type="hidden" name="url"
+                                value="<?php echo isset($currentFullURL) ? $currentFullURL : '-'; ?>" />
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="khaplu_field khaplu_field2" id="khaplu_fld1">
                                         <i class="fa fa-user" aria-hidden="true"></i>
-                                        <input type="text" name="name" maxlength="30"id="name" placeholder="Full Name *" required>
+                                        <input type="text" name="name" maxlength="30" id="name"
+                                            placeholder="Full Name *" required>
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-12 pr-md-1">
@@ -1391,8 +1424,8 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                                 <div class="col-md-6 col-12 pl-md-1">
                                     <div class="khaplu_field khaplu_field2" id="">
                                         <i class="fa fa-phone" aria-hidden="true"></i>
-                                        <input type="tel" name="phone" placeholder="Phone Number *" minlength="10" maxlength="10"
-                                            required>
+                                        <input type="tel" name="phone" placeholder="Phone Number *" minlength="10"
+                                            maxlength="10" required>
                                     </div>
                                 </div>
 
@@ -1405,7 +1438,8 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
 
                                 <div class="col-md-12">
                                     <div class="khaplu_field" id="khaplu_fld5">
-                                        <button type="submit" class="gets_quotes" name="send_reserve_req" value="Submit Now">Submit
+                                        <button type="submit" class="gets_quotes btn-submit" name="send_reserve_req"
+                                            value="Submit Now">Submit
                                             Now</button>
                                     </div>
                                 </div>
@@ -1417,12 +1451,13 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
         </div>
     </section>
 
-<div class="popup-img" style="z-index:999;">
+    <div class="popup-img" style="z-index:999;">
         <button type="button" class="popup-btn">
-            <img src="./images/christmas-santa.webp" loading="eager" width="100%" height="100%" class="lazy Sizer loaded" alt="Best Publishing Company" data-was-processed="true">
+            <img src="./images/christmas-santa.webp" loading="eager" width="100%" height="100%"
+                class="lazy Sizer loaded" alt="Best Publishing Company" data-was-processed="true">
         </button>
     </div>
-    
+
 
     <div class="sticky-slider">
         <a href="tel:(929) 379-9764"><i class="fa-solid fa-phone"></i>Talk To An Expert Now!</a>
@@ -1430,71 +1465,88 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
 
     <script data-cfasync="false" src="js/email-decode.min.js"></script>
     <script src="js/jquery-3.3.1.min.js" type="05fe444ebc93624992749fcc-text/javascript"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
     <!-- Start of designneshelp Zendesk Widget script -->
-      <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=6da4305e-ec20-4d26-87a7-f52f10e35132"> </script>
+    <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=6da4305e-ec20-4d26-87a7-f52f10e35132">
+    </script>
     <!-- End of designneshelp Zendesk Widget script -->
-      
-    
+
+
     <script>
-    $('.livechat, .live_chatt, .chatt').click(function () {
-            $zopim.livechat.window.toggle();
-            return false;
-          }
-          );
-          $(window).on('load', function() {
-                $zopim.livechat.window.show();
-          });
+    $('.livechat, .live_chatt, .chatt').click(function() {
+        $zopim.livechat.window.toggle();
+        return false;
+    });
+    $(window).on('load', function() {
+        $zopim.livechat.window.show();
+    });
     zE(function() {
-            zE.activate();
-        });
-        zE(function() {
-            $zopim(function() {
-              $zopim.livechat.setOnUnreadMsgs(unread);
-                function unread(number) {
-                if (number>=1)
-                {
+        zE.activate();
+    });
+    zE(function() {
+        $zopim(function() {
+            $zopim.livechat.setOnUnreadMsgs(unread);
+
+            function unread(number) {
+                if (number >= 1) {
                     $zopim.livechat.window.toggle();
                     $zopim.livechat.window.show();
                 }
-                }
-            });
+            }
         });
-        
+    });
     </script>
     <script src="js/plugin.js" type="05fe444ebc93624992749fcc-text/javascript"></script>
     <script src="js/slick.js" type="05fe444ebc93624992749fcc-text/javascript"></script>
     <script src="js/fonts.js" type="05fe444ebc93624992749fcc-text/javascript"></script>
     <script src="js/custom.js" type="05fe444ebc93624992749fcc-text/javascript"></script>
 
-   
 
 
 
 
 
-<script src="js/rocket-loader.min.js" data-cf-settings="05fe444ebc93624992749fcc-|49" defer></script>
+
+    <script src="js/rocket-loader.min.js" data-cf-settings="05fe444ebc93624992749fcc-|49" defer></script>
 
 
-<script>
-        $(document).ready(function () {
-            $('input[name="phone"]').attr('placeholder', '(123) 123-1234*');
-            $('input[name="phone"]').on('input', function () {
-                // Remove non-numeric characters from input value
-                var input = $(this).val().replace(/\D/g, '');
+    <script>
+    $(document).ready(function() {
+        $('input[name="phone"]').attr('placeholder', '(123) 123-1234*');
+        $('input[name="phone"]').on('input', function() {
+            // Remove non-numeric characters from input value
+            var input = $(this).val().replace(/\D/g, '');
 
-                // Format the input as (123) 123-1234 if there are at least 10 digits
-                if (input.length >= 10) {
-                    var formattedNumber = '(' + input.substr(0, 3) + ') ' + input.substr(3, 3) + '-' + input.substr(6, 4);
-                    $(this).val(formattedNumber);
-                }
-                else {
-                    // If the input is less than 10 digits, keep it as is
-                    $(this).val(input);
-                }
-            });
+            // Format the input as (123) 123-1234 if there are at least 10 digits
+            if (input.length >= 10) {
+                var formattedNumber = '(' + input.substr(0, 3) + ') ' + input.substr(3, 3) + '-' + input
+                    .substr(6, 4);
+                $(this).val(formattedNumber);
+            } else {
+                // If the input is less than 10 digits, keep it as is
+                $(this).val(input);
+            }
         });
+    });
+
+    $(document).ready(function() {
+        $(".btn-submit").click(function(e) {
+            var button = $(this);
+            var form = button.closest("form")[0];
+
+            if (form.checkValidity()) {
+                e.preventDefault();
+
+                button.prop("disabled", true).text("Submitting...");
+                form.submit();
+            } else {
+                form.classList.add("was-validated");
+            }
+        });
+    });
     </script>
 
 

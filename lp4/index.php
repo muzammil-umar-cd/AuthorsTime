@@ -34,8 +34,8 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description"
         content="Writing blogs and articles just got easy with the help of expert content writers at Authors Time. Place an order today and you can get the best articles and blogs written at a discounted rate.">
-   <link rel="shortcut icon" href="https://authorstime.com/fav.png" type="image/x-icon">
-   <link rel="icon" href="https://authorstime.com/fav.png" type="image/x-icon">
+    <link rel="shortcut icon" href="https://authorstime.com/fav.png" type="image/x-icon">
+    <link rel="icon" href="https://authorstime.com/fav.png" type="image/x-icon">
     <link
         href="css?family=Playfair+Display:400,500,600,700,800,900|Poppins:400,500,600,700,800,900|Roboto:400,500,700,900&display=swap"
         rel="stylesheet import preload" as="style" async="">
@@ -48,7 +48,9 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
         async="">
     <link rel="stylesheet import preload" type="text/css" href="assets/publishing-lp3/css/sweetalert.css" as="style"
         async="">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -56,7 +58,8 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
     <div class="marqbar">
         <div class="container">
             <marquee class="text-white">
-                Our mission is to discover and market unknown Christian-based authors who aspire to craft the greatest spiritual impact imaginable via the written word.
+                Our mission is to discover and market unknown Christian-based authors who aspire to craft the greatest
+                spiritual impact imaginable via the written word.
             </marquee>
         </div>
     </div>
@@ -167,17 +170,20 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                                         <!--hidden required values-->
                                         <input type="hidden" name="ip_address" value="<?php echo $ip; ?>" />
                                         <input type="hidden" name="city" value="<?php echo $locationData->city; ?>" />
-                                        <input type="hidden" name="country" value="<?php echo $locationData->country; ?>" />
-                                        <input type="hidden" name="internet_connection" value="<?php echo $locationData->isp; ?>" />
+                                        <input type="hidden" name="country"
+                                            value="<?php echo $locationData->country; ?>" />
+                                        <input type="hidden" name="internet_connection"
+                                            value="<?php echo $locationData->isp; ?>" />
                                         <input type="hidden" name="zipcode" value="<?php echo $locationData->zip; ?>" />
-                                        <input type="hidden" name="region" value="<?php echo $locationData->regionName; ?>" />
+                                        <input type="hidden" name="region"
+                                            value="<?php echo $locationData->regionName; ?>" />
                                         <input type="hidden" name="url" value="<?php echo $currentFullURL; ?>" />
                                         <input type="hidden" name="form_name" value="POP-UP FORM" />
                                         <input type="hidden" name="bot_detector" value="" />
 
                                         <div class="mm-field namefield">
-                                            <input type="text" name="name" maxlength="30"placeholder="Enter your name *"
-                                                data-validation="required" required>
+                                            <input type="text" name="name" maxlength="30"
+                                                placeholder="Enter your name *" data-validation="required" required>
                                         </div>
                                         <div class="mm-field emailfield">
                                             <input type="email" name="email" placeholder="Enter email here *"
@@ -194,7 +200,8 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                                         </div>
                                         <div class="banFormBtt">
                                             <div class="sumbit-btn">
-                                                <button type="submit" name="sendmail" class="custombtn  learn-more-tab">Submit</button>
+                                                <button type="submit" name="sendmail"
+                                                    class="custombtn  learn-more-tab btn-submit">Submit</button>
                                             </div>
                                         </div>
                                         <!-- <div id="formResult"></div> -->
@@ -508,7 +515,7 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                     </ul>
                 </div>
                 <div class="col-lg-9">
-                     <h3 class="head-mm " >Book <strong class="theme_col">Bestsellers</strong></h3> 
+                    <h3 class="head-mm ">Book <strong class="theme_col">Bestsellers</strong></h3>
                     <div class="box-christian showfirst books_slides">
                         <div class="row">
                             <div class="col-md-4">
@@ -1754,7 +1761,7 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                                     <div class="col-lg-6 col-md-6 col-sm-12">
                                         <div class="footer-form-control">
                                             <input type="text" class="form-control" placeholder="Enter your Name"
-                                                name="name" maxlength="30"data-validation="required" required>
+                                                name="name" maxlength="30" data-validation="required" required>
                                         </div>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-12">
@@ -1767,8 +1774,8 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                                     <div class="col-lg-6 col-md-6 col-sm-12">
                                         <div class="footer-form-control">
                                             <input type="number" class="form-control"
-                                                placeholder="Enter your Phone Number" maxlength="12" name="phone" required
-                                                data-validation="required">
+                                                placeholder="Enter your Phone Number" maxlength="12" name="phone"
+                                                required data-validation="required">
                                         </div>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-12">
@@ -1803,15 +1810,16 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                 <div class="col-lg-2 col-md-3 col-sm-3">
                     <div class="footer_logo">
                         <a href="/">
-                        <img data-src="assets/logo-light.png" alt="Footer Logo"
-                            class="img-fluid lazyload" style="max-width: 80%;">
+                            <img data-src="assets/logo-light.png" alt="Footer Logo" class="img-fluid lazyload"
+                                style="max-width: 80%;">
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-3">
                     <p style="color: #fff;"><strong>Mailing Address:</strong></p>
-                    <p style="color: #fff;"><a style="color: #fff;" href="javascript:;"><i class="fas fa-map-marker-alt"></i> 112 West 34th Street 18th & 17th
-                                Floors 10120 New York United States</a></p>
+                    <p style="color: #fff;"><a style="color: #fff;" href="javascript:;"><i
+                                class="fas fa-map-marker-alt"></i> 112 West 34th Street 18th & 17th
+                            Floors 10120 New York United States</a></p>
                 </div>
                 <div class="col-lg-4 col-md-12 text-center">
                     <div class="copyright_text">
@@ -1829,8 +1837,8 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                 </div>
                 <div class="col-lg-3 col-md-12">
                     <div class="copyright_img">
-                        <img data-src="assets/publishing-lp3/images/payment.webp" alt="Payment" style="top: 20px;position: relative;"
-                            class="img-fluid lazyload">
+                        <img data-src="assets/publishing-lp3/images/payment.webp" alt="Payment"
+                            style="top: 20px;position: relative;" class="img-fluid lazyload">
                     </div>
                 </div>
             </div>
@@ -1863,23 +1871,25 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                                     <input type="hidden" name="ip_address" value="<?php echo $ip; ?>" />
                                     <input type="hidden" name="city" value="<?php echo $locationData->city; ?>" />
                                     <input type="hidden" name="country" value="<?php echo $locationData->country; ?>" />
-                                    <input type="hidden" name="internet_connection" value="<?php echo $locationData->isp; ?>" />
+                                    <input type="hidden" name="internet_connection"
+                                        value="<?php echo $locationData->isp; ?>" />
                                     <input type="hidden" name="zipcode" value="<?php echo $locationData->zip; ?>" />
-                                    <input type="hidden" name="region" value="<?php echo $locationData->regionName; ?>" />
+                                    <input type="hidden" name="region"
+                                        value="<?php echo $locationData->regionName; ?>" />
                                     <input type="hidden" name="url" value="<?php echo $currentFullURL; ?>" />
                                     <input type="hidden" name="form_name" value="POP-UP FORM" />
                                     <input type="hidden" name="bot_detector" value="" />
-                                    <div class="halloween-filed d-block" >
+                                    <div class="halloween-filed d-block">
                                         <input type="hidden" id="formType" name="formType">
                                         <input type="hidden" id="referer" name="referer">
-                                        <input type="text" placeholder="Type your full Name" name="name" maxlength="30"required
-                                            data-validation="required">
+                                        <input type="text" placeholder="Type your full Name" name="name" maxlength="30"
+                                            required data-validation="required">
                                         <input type="email" placeholder="Email Address" name="email" required
                                             data-validation="required">
                                         <input type="number" placeholder="Phone Number" name="phone" required
                                             data-validation="required">
                                         <textarea placeholder="Message" name="message" class="txt"></textarea>
-                                        <button type="submit"  name="sendmail" class="halloween_btn">Send to
+                                        <button type="submit" name="sendmail" class="halloween_btn">Send to
                                             us!</button>
                                         <div id="formResult"></div>
                                     </div>
@@ -1891,8 +1901,8 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
             </div>
         </div>
     </div>
-    
-     <div class="floatbutton">
+
+    <div class="floatbutton">
         <div class="btns_wrap">
             <a href="javascript:;" class="chat_wrap chat" id="dynamic" onclick="setButtonURL();">
                 <span class="icoo"><i class="fa fa-comment"></i></span>
@@ -1917,7 +1927,8 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                                 <input type="hidden" name="ip_address" value="<?php echo $ip; ?>" />
                                 <input type="hidden" name="city" value="<?php echo $locationData->city; ?>" />
                                 <input type="hidden" name="country" value="<?php echo $locationData->country; ?>" />
-                                <input type="hidden" name="internet_connection" value="<?php echo $locationData->isp; ?>" />
+                                <input type="hidden" name="internet_connection"
+                                    value="<?php echo $locationData->isp; ?>" />
                                 <input type="hidden" name="zipcode" value="<?php echo $locationData->zip; ?>" />
                                 <input type="hidden" name="region" value="<?php echo $locationData->regionName; ?>" />
                                 <input type="hidden" name="url" value="<?php echo $currentFullURL; ?>" />
@@ -1926,8 +1937,8 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                                 <div class="row">
                                     <div class="col-lg-12">
                                         <div class="fldset">
-                                            <input id="username" name="name" maxlength="30"minlength="2" type="text" required
-                                                placeholder="Enter your name *" required="">
+                                            <input id="username" name="name" maxlength="30" minlength="2" type="text"
+                                                required placeholder="Enter your name *" required="">
                                         </div>
                                     </div>
                                     <div class="col-lg-12">
@@ -1950,8 +1961,9 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                                     </div>
                                     <div class="col-lg-12">
                                         <div class="fldset">
-                                        <div class="sumbit-btn">
-                                                <button type="submit" name="sendmail" class="custombtn  learn-more-tab">Submit</button>
+                                            <div class="sumbit-btn">
+                                                <button type="submit" name="sendmail"
+                                                    class="custombtn  learn-more-tab">Submit</button>
                                             </div>
                                         </div>
                                     </div>
@@ -1980,7 +1992,7 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
         var keyCode = event.keyCode || event.which;
         var keyValue = String.fromCharCode(keyCode);
         var isValid = /^\d+$/.test(keyValue);
-        
+
         if (!isValid) {
             $('#phone-error').show();
             event.preventDefault();
@@ -1993,7 +2005,7 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
         $('.floatbutton').toggleClass("active");
         //$('.crossplus').toggleClass("rotate");
     });
-    $(window).scroll(function(){
+    $(window).scroll(function() {
         if ($(this).scrollTop() > 50) {
             $('#dynamic').addClass('newClass');
         } else {
@@ -2004,46 +2016,46 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
     </script>
 
     <!-- Start of designneshelp Zendesk Widget script -->
-    <script id="ze-snippet"
-        src="https://static.zdassets.com/ekr/snippet.js?key=6da4305e-ec20-4d26-87a7-f52f10e35132"> </script>
+    <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=6da4305e-ec20-4d26-87a7-f52f10e35132">
+    </script>
     <!-- End of designneshelp Zendesk Widget script -->
 
     <script>
-        $('.livechat, .live_chatt, .chat, #flashing').click(function () {
-            $zopim.livechat.window.toggle();
-            return false;
-        }
-        );
-        $(window).on('load', function () {
-            $zopim.livechat.window.show();
-        });
-        zE(function () {
-            zE.activate();
-        });
-        zE(function () {
-            $zopim(function () {
-                $zopim.livechat.setOnUnreadMsgs(unread);
-                function unread(number) {
-                    if (number >= 1) {
-                        $zopim.livechat.window.toggle();
-                        $zopim.livechat.window.show();
-                    }
+    $('.livechat, .live_chatt, .chat, #flashing').click(function() {
+        $zopim.livechat.window.toggle();
+        return false;
+    });
+    $(window).on('load', function() {
+        $zopim.livechat.window.show();
+    });
+    zE(function() {
+        zE.activate();
+    });
+    zE(function() {
+        $zopim(function() {
+            $zopim.livechat.setOnUnreadMsgs(unread);
+
+            function unread(number) {
+                if (number >= 1) {
+                    $zopim.livechat.window.toggle();
+                    $zopim.livechat.window.show();
                 }
-            });
+            }
         });
+    });
     </script>
     <script>
-        $(document).ready(function() {
-            $('input[name="phone"]').on('input', function() {
-                var phoneNumber = $(this).val().replace(/\D/g, ''); // Remove non-numeric characters
-                if (phoneNumber.length > 10) {
-                    $(this).val(phoneNumber.slice(0, 10)); // Limit to 10 digits
-                }
-            });
+    $(document).ready(function() {
+        $('input[name="phone"]').on('input', function() {
+            var phoneNumber = $(this).val().replace(/\D/g, ''); // Remove non-numeric characters
+            if (phoneNumber.length > 10) {
+                $(this).val(phoneNumber.slice(0, 10)); // Limit to 10 digits
+            }
         });
+    });
     </script>
-<script>
-    $(document).ready(function(){
+    <script>
+    $(document).ready(function() {
         var header = $("header");
         var sticky = header.offset().top;
 
@@ -2058,7 +2070,23 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
         // Trigger scroll event to initialize header state
         $(window).trigger('scroll');
     });
-</script>
+
+    $(document).ready(function() {
+        $(".btn-submit").click(function(e) {
+            var button = $(this);
+            var form = button.closest("form")[0];
+
+            if (form.checkValidity()) {
+                e.preventDefault();
+
+                button.prop("disabled", true).text("Submitting...");
+                form.submit();
+            } else {
+                form.classList.add("was-validated");
+            }
+        });
+    });
+    </script>
 </body>
 
 </html>

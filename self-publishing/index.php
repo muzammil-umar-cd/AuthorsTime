@@ -25,7 +25,8 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
 
 <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="We are happy to help authors create a visually appealing and professional cover design that accurately represents their book. Whether you plan to publish your book independently or through a traditional publishing company, we can help you create a cover that will stand out and capture the attention of potential readers." />
+    <meta name="description"
+        content="We are happy to help authors create a visually appealing and professional cover design that accurately represents their book. Whether you plan to publish your book independently or through a traditional publishing company, we can help you create a cover that will stand out and capture the attention of potential readers." />
     <meta name="viewport" content="width=device-width" />
     <style type="text/css">
     :host,
@@ -916,7 +917,7 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
     }
     </style>
     <link rel="shortcut icon" href="https://authorstime.com/fav.png" type="image/x-icon">
-   <link rel="icon" href="https://authorstime.com/fav.png" type="image/x-icon">
+    <link rel="icon" href="https://authorstime.com/fav.png" type="image/x-icon">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
     <meta name="generator" content="Astro v4.0.7" />
     <title>Welcome to <?php echo WEBSITE_NAME; ?>.</title>
@@ -942,11 +943,16 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
         integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
         crossorigin="anonymous" />
     <script type="text/javascript">
-        (function(c,l,a,r,i,t,y){
-            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-        })(window, document, "clarity", "script", "okoakibb1u");
+    (function(c, l, a, r, i, t, y) {
+        c[a] = c[a] || function() {
+            (c[a].q = c[a].q || []).push(arguments)
+        };
+        t = l.createElement(r);
+        t.async = 1;
+        t.src = "https://www.clarity.ms/tag/" + i;
+        y = l.getElementsByTagName(r)[0];
+        y.parentNode.insertBefore(t, y);
+    })(window, document, "clarity", "script", "okoakibb1u");
     </script>
 </head>
 
@@ -1048,7 +1054,7 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                                         value="<?php echo $locationData->regionName; ?>" />
                                     <input type="hidden" name="url" value="<?php echo $currentFullURL ?>" />
                                     <div class="fld-inp">
-                                        <input type="text" name="name" maxlength="30"required placeholder="Full Name *"
+                                        <input type="text" name="name" maxlength="30" required placeholder="Full Name *"
                                             data-cf-modified- />
                                     </div>
                                     <div class="fld-inp">
@@ -1109,7 +1115,7 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                                     <div class="fld-inp fld-txt">
                                         <textarea name="message" placeholder="Enter Message*" required></textarea>
                                     </div>
-                                    <button type="submit" class="free-consult">
+                                    <button type="submit" class="btn-submit free-consult">
                                         Claim Your Expert Consultation
                                         <!-- <i class="fa fa-chevron-right"></i> -->
                                     </button>
@@ -1739,7 +1745,7 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                                 <div class="col-md-12">
                                     <textarea autocomplete="nope" name="message" class="required form-control" required
                                         placeholder="Enter Brief*"></textarea>
-                                    <button type="submit" class="btn btn-yellow call-now">
+                                    <button type="submit" class="btn btn-submit btn-yellow call-now">
                                         <span>
                                             Claim Your Expert Consultation
                                             <i class="fas fa-long-arrow-right"></i>
@@ -1846,11 +1852,11 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                                 </li>
                                 <li style="display: inherit" class="w-100">
                                     <i class="fas fa-paper-plane-o" aria-hidden="true"></i>
-                                    <textarea name="message" class="required" required placeholder="Enter a  description*"
-                                        aria-required="true"></textarea>
+                                    <textarea name="message" class="required" required
+                                        placeholder="Enter a  description*" aria-required="true"></textarea>
                                 </li>
                                 <li>
-                                    <input type="submit" value="Claim Your Expert Consultation" />
+                                    <input type="submit" class="btn-submit" value="Claim Your Expert Consultation" />
                                 </li>
                             </ul>
                         </form>
@@ -1913,7 +1919,8 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
         integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
         crossorigin="anonymous"></script>
     <!-- ZENDESK -->
-    <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=6da4305e-ec20-4d26-87a7-f52f10e35132"> </script>
+    <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=6da4305e-ec20-4d26-87a7-f52f10e35132">
+    </script>
     <!-- ZENDESK -->
     <script>
     $(document).ready(() => {
@@ -2039,7 +2046,24 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
             x[1] :
             "(" + x[1] + ") " + x[2] + (x[3] ? "-" + x[3] : "");
     });
+
+    $(document).ready(function() {
+        $(".btn-submit").click(function(e) {
+            var button = $(this);
+            var form = button.closest("form")[0];
+
+            if (form.checkValidity()) {
+                e.preventDefault();
+
+                button.prop("disabled", true).text("Submitting...");
+                form.submit();
+            } else {
+                form.classList.add("was-validated");
+            }
+        });
+    });
     </script>
+
 
 </body>
 
