@@ -532,26 +532,26 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                         <div class="poster-btn poster-prev-btn"></div>
                         <ul class="poster-list">
                             <li class="poster-item">
-                                <a href="javascript:l;" target="_blank"><img src="assets/images/sl10.png" />
+                                <a href="javascript:;"><img src="assets/images/sl10.png" />
                                 </a>
                             </li>
                             <li class="poster-item">
-                                <a href="assets/pdf/education.pdf" target="_blank">
+                                <a href="javascript:;">
                                     <img src="assets/images/sl4.png" />
                                 </a>
                             </li>
                             <li class="poster-item">
-                                <a href="assets/pdf/Biography.pdf" target="_blank">
+                                <a href="javascript:;">
                                     <img src="assets/images/sl6.png" />
                                 </a>
                             </li>
                             <li class="poster-item">
-                                <a href="assets/pdf/Strategy.pdf" target="_blank">
+                                <a href="javascript:;">
                                     <img src="assets/images/sl7.png" />
                                 </a>
                             </li>
                             <li class="poster-item">
-                                <a href="assets/pdf/Travel.pdf" target="_blank">
+                                <a href="javascript:;">
                                     <img src="assets/images/sl8.png" />
                                 </a>
                             </li>
