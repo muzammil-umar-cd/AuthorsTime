@@ -1039,6 +1039,23 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
 
 
     <script src="assets/js/jquery.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(".btn-submit").click(function(e) {
+                var button = $(this);
+                var form = button.closest("form")[0];
+
+                if (form.checkValidity()) {
+                    e.preventDefault();
+
+                    button.prop("disabled", true).text("Submitting...");
+                    form.submit();
+                } else {
+                    form.classList.add("was-validated");
+                }
+            });
+        });
+    </script>
     <script src="assets/js/custom.js"></script>
     <script src="assets/js/owl.carousel.js"></script>
     <script type="text/javascript" src="assets/js/js-libs.js"></script>
@@ -1126,23 +1143,6 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
     <!--timer js-->
 
     <script src="7771cc6153.js" crossorigin="anonymous"></script>
-    <script>
-        $(document).ready(function() {
-            $(".btn-submit").click(function(e) {
-                var button = $(this);
-                var form = button.closest("form")[0];
-
-                if (form.checkValidity()) {
-                    e.preventDefault();
-
-                    button.prop("disabled", true).text("Submitting...");
-                    form.submit();
-                } else {
-                    form.classList.add("was-validated");
-                }
-            });
-        });
-    </script>
 </body>
 
 </html>
