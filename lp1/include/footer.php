@@ -141,7 +141,7 @@
                             <textarea name="message" placeholder="Tell us about your project" required=""></textarea>
                         </div>
 
-                        <button type="submit" name="send_reserve_req">Submit</button>
+                        <button type="submit" class="btn-submit" name="send_reserve_req">Submit</button>
                     </form>
                 </div>
             </div>
