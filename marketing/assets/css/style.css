@@ -437,7 +437,18 @@ button {
     top: 40px;
     right: -10px;
 }
+.btn-block {
+    display: block;
+    width: 100%;
+    padding: 5px 0;
+    margin-bottom: 3px;
+  }
 
+  .btn-light {
+    color: #212529;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+  }
 .btn-block a {
     margin-right: 27px;
 }
@@ -454,6 +465,8 @@ button {
     /* margin-left: 20px; */
     display: inline;
 }
+
+.btn-block
 
 .btn-md, .btn-md-2 {
     border-radius: 0;
@@ -508,6 +521,7 @@ button {
     padding-top: 30px;
 }
 
+
 .banner-btm h5 {
     margin: 0;
     width: 100%;
@@ -519,6 +533,38 @@ button {
     vertical-align: baseline;
 }
 
+.btn-dark {
+    color: #fff;
+    background-color: #343a40;
+    border-color: #343a40;
+  }
+  .btn-dark:hover {
+    color: #fff;
+    background-color: #23272b;
+    border-color: #1d2124;
+  }
+  .btn-dark.focus,
+  .btn-dark:focus {
+    box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
+  }
+  .btn-dark.disabled,
+  .btn-dark:disabled {
+    color: #fff;
+    background-color: #343a40;
+    border-color: #343a40;
+  }
+  .btn-dark:not(:disabled):not(.disabled).active,
+  .btn-dark:not(:disabled):not(.disabled):active,
+  .show > .btn-dark.dropdown-toggle {
+    color: #fff;
+    background-color: #1d2124;
+    border-color: #171a1d;
+  }
+  .btn-dark:not(:disabled):not(.disabled).active:focus,
+  .btn-dark:not(:disabled):not(.disabled):active:focus,
+  .show > .btn-dark.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
+  }
 
 /*header css*/
 
@@ -1451,7 +1497,7 @@ top: -35px;
     /* background: linear-gradient(-28deg, #00caff 0%, #000c69 60%); */
     background: linear-gradient(-20deg, #F74734 40%, #E45738 60%);
     display: block;
-    padding: 14px 0 0 0;
+    padding: 23px 0 0 0;
     font-size: 24px;
     transition: all 0.4s ease-In-out;
     border:1px solid transparent;
@@ -2998,7 +3044,7 @@ ul.contact-lst li a:after {bottom: 6px;}
 /*div#countdown {left: -33px; right: 0; top:-468px;} */
 .price-bx img {width: 100%; height: auto; margin: 0 0 23px 0;}
 .mainBanner {padding-bottom: 34px; text-align: center;}
-.section-category p {font-size: 15px;}
+.section-category p {font-size: 14px;text-align: left;}
 ul.category-list li {width: 47%;}
 .section-category { margin-bottom: 20px;}
 .cta-banner { padding: 20px 0 0;}
