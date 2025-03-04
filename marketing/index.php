@@ -975,7 +975,7 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                     </div>
                     <div class="col-md-12">
                       <div class="footer-form-input">
-                        <select name="oofpages" data-name="oofpages" required>
+                        <select name="noofpages" data-name="oofpages" required>
                           <option selected="" disabled="">
                             Number of Pages
                           </option>
