@@ -188,7 +188,7 @@ if (isset($_POST['sendmail']) || $_SERVER['REQUEST_METHOD'] === 'POST') {
           
           $urlData = $name."&email=".$email."&phone=".$phone."&message=".$message;
           
-          header("Location: /amazon-publishing-services/thankyou.php?name=$urlData");
+          header("Location: /book-publishing-services/thankyou.php?name=$urlData");
         }
       } catch (Exception $e) {
         echo "There was a problem sending your submission. Error: {$mail->ErrorInfo}";

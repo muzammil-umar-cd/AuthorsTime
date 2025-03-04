@@ -151,7 +151,7 @@
     </script>
     <script>
         setTimeout(function() {
-            window.location.href = "/amazon-publishing-services/";
+            window.location.href = "/book-publishing-services/";
           }, 4000);
     </script>
 </body>
