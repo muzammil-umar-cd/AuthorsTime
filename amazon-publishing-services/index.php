@@ -106,7 +106,7 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                             </div>
                         </div>
                         <div class="info-form" data-form-type="signup_form">
-                            <form action="../sendmail/send_mail_lp.php" class="validate-banner leadForm" method="post">
+                            <form action="sendmail/sendmail.php" class="validate-banner leadForm" method="post">
                                 <!--hidden required values-->
                                 <input type="hidden" name="ip_address" value="<?php echo $ip; ?>" />
                                 <input type="hidden" name="city" value="<?php echo $locationData->city; ?>" />
