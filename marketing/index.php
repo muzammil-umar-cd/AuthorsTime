@@ -91,16 +91,15 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                         <p> Having a strong online presence is important in today's digital world. You and your book can
                             achieve extraordinary success in the digital realm with the assistance of our book marketing
                             team, who utilize the strategies of leading industry marketers. </p>
-                        <p>Or <a href="javascript:$zopim.livechat.window.show();" class="chat"
+                        <p>Or <a href="javascript:;" onclick="$zopim.livechat.window.toggle()" class="chat"
                                 style="color: #ff5e14;text-decoration: none;">Start A Live Chat</a> to discuss your
                             requirements</p>
 
                         <div class="btn-block">
-                            <a href="javascript:$zopim.livechat.window.show();" class="btn-md btn-light chat">
+                            <a href="javascript:;" onclick="$zopim.livechat.window.toggle()" class="btn-md btn-light chat">
                                 Live Chat
                             </a>
-                            <a href="javascript:.html" name="0" data-fancybox="" data-src="#popupform"
-                                class="btn-md-2 btn-dark open-popup various">
+                            <a href="javascript:;" class="btn-md-2 btn-dark btn-popup various">
                                 Get Started
                             </a>
                             <img src="assets/images/partners-strip.png" style="padding: 0 17px;margin-top: 33px;">
@@ -110,7 +109,7 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                 <div class="col-md-5">
                     <div class="info-contact-banner">
                         <div class="head-cb">
-                            <h6>The Best <?php echo WEBSITE_NAME; ?> in Town</h6>
+                            <h6>The Best Book Marketing in Town</h6>
                             <h4>Within Easy Reach</h4>
                             <div class="seal">
                                 <img src="assets/images/50-percent.png" alt="">

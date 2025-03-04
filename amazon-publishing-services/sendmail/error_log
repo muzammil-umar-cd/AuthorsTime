@@ -1,0 +1,5 @@
+[16-Dec-2023 04:14:33 America/New_York] PHP Warning:  Header may not contain more than a single header, new line detected in /home/americanbookserv/public_html/include/sendmail/sendmail.php on line 201
+[21-Dec-2023 15:02:26 America/New_York] PHP Warning:  Header may not contain more than a single header, new line detected in /home/americanbookserv/public_html/include/sendmail/sendmail.php on line 201
+[25-Dec-2023 13:25:20 America/New_York] PHP Warning:  Header may not contain more than a single header, new line detected in /home/americanbookserv/public_html/include/sendmail/sendmail.php on line 205
+[06-Jan-2024 14:45:23 America/New_York] PHP Warning:  Header may not contain more than a single header, new line detected in /home/americanbookserv/public_html/include/sendmail/sendmail.php on line 205
+[22-Jan-2024 18:22:48 America/New_York] PHP Warning:  Header may not contain more than a single header, new line detected in /home/americanbookserv/public_html/include/sendmail/sendmail.php on line 212
