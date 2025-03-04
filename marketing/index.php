@@ -139,7 +139,7 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <input type="tel" class="required form-control  number ftpn"
-                                                    name="pnumber" placeholder="Phone No">
+                                                    name="phone" placeholder="Phone No">
                                             </div>
                                             <div class="col-md-6">
                                                 <input type="text" name="genre" class="required form-control"
