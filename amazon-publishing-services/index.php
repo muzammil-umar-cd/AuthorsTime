@@ -77,13 +77,10 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
             <div class="row">
                 <div class="col-md-7">
                     <div class="info-banner">
-                        <h1><span>Make your Words Available Everywhere!</span>
-                            <strong> Use Our Outstanding Book Marketing Services to Create Attention for your Book
-                            </strong>
+                        <h1><span>See the Power of Amazon Publishing!</span>
+                            <strong>Providing Amazon Publishing Services for Best-Selling Authors</strong>
                         </h1>
-                        <p> Having a strong online presence is important in today's digital world. You and your book can
-                            achieve extraordinary success in the digital realm with the assistance of our book marketing
-                            team, who utilize the strategies of leading industry marketers. </p>
+                        <p> For best-selling writers, Prime Publishing Agency provides exceptional publishing services. Our team provides expert guidance and assistance to help you publish, whether you're a seasoned writer or just starting out.</p>
                         <p>Or <a href="javascript:;" onclick="$zopim.livechat.window.toggle()" class="chat"
                                 style="color: #ff5e14;text-decoration: none;">Start A Live Chat</a> to discuss your
                             requirements</p>
