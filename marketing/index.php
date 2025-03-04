@@ -109,7 +109,7 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                 <div class="col-md-5">
                     <div class="info-contact-banner">
                         <div class="head-cb">
-                            <h6>The Best Book Marketing in Town</h6>
+                            <h6>The Best Book Marketing Services in Town</h6>
                             <h4>Within Easy Reach</h4>
                             <div class="seal">
                                 <img src="assets/images/50-percent.png" alt="">

@@ -1,6 +1,6 @@
-﻿<?php 
+﻿<?php
 // include ('sendmail/sendmail.php');
-include ('config.php');
+include('config.php');
 
 // Retrieve IP address
 $ip = $_SERVER['REMOTE_ADDR'];
@@ -29,7 +29,8 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
     <title>Best Amazon Consultant In the USA | <?php echo WEBSITE_NAME; ?></title>
-    <meta name="description" content="Become the next bestselling author today with highest level of privacy ensured <?php echo WEBSITE_NAME; ?> services in USA. Talk to our book writing consultants, and get started now.">
+    <meta name="description"
+        content="Become the next bestselling author today with highest level of privacy ensured <?php echo WEBSITE_NAME; ?> services in USA. Talk to our book writing consultants, and get started now.">
     <link rel="stylesheet" href="assets/css/layout.css" />
     <link href="css2?family=Poppins:wght@300;400;500;700;900&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="assets/css/owl.carousel.css" />
@@ -45,6 +46,7 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
 </head>
 
 <body>
+
     <header>
         <div class="main-header">
             <div class="container">
@@ -62,8 +64,10 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                     <div class="col-md-8 text-right">
                         <div class="contact">
                             <ul class="contact-lst">
-                                <li><a href="javascript:;" onclick="$zopim.livechat.window.toggle()"><span><img src="assets/images/chat-icon.png"></span>Live Chat Now</a></li>
-                                <li><a href="<?php echo PHONE_HREF; ?>"><span><img src="assets/images/tele-icon.png"></span><?php echo PHONE; ?></a></li>
+                                <li><a href="javascript:;" onclick="$zopim.livechat.window.toggle()"><span><img
+                                                src="assets/images/chat-icon.png"></span>Live Chat Now</a></li>
+                                <li><a href="<?php echo PHONE_HREF; ?>"><span><img
+                                                src="assets/images/tele-icon.png"></span><?php echo PHONE; ?></a></li>
                             </ul>
                         </div>
                     </div>
@@ -77,16 +81,17 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
             <div class="row">
                 <div class="col-md-7">
                     <div class="info-banner">
-                        <h1><span>See the Power of Amazon Publishing!</span>
-                            <strong>Providing Amazon Publishing Services for Best-Selling Authors</strong>
+                        <h1><span>It's Time You Share Your Amazing Story!</span>
+                            <strong> Best Professional <?php echo WEBSITE_NAME; ?> Services!</strong>
                         </h1>
-                        <p> For best-selling writers, <?php echo WEBSITE_NAME; ?> provides exceptional publishing services. Our team provides expert guidance and assistance to help you publish, whether you're a seasoned writer or just starting out.</p>
+                        <p> Our expert <?php echo WEBSITE_NAME; ?> can embed the true essence of your story in their content before formatting and publishing it, without costing a fortune.</p>
                         <p>Or <a href="javascript:;" onclick="$zopim.livechat.window.toggle()" class="chat"
                                 style="color: #ff5e14;text-decoration: none;">Start A Live Chat</a> to discuss your
                             requirements</p>
 
                         <div class="btn-block">
-                            <a href="javascript:;" onclick="$zopim.livechat.window.toggle()" class="btn-md btn-light chat">
+                            <a href="javascript:;" onclick="$zopim.livechat.window.toggle()"
+                                class="btn-md btn-light chat">
                                 Live Chat
                             </a>
                             <a href="javascript:;" class="btn-md-2 btn-dark btn-popup various">
@@ -99,7 +104,7 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                 <div class="col-md-5">
                     <div class="info-contact-banner">
                         <div class="head-cb">
-                            <h6>The Best Amazon Book Publishing in Town</h6>
+                            <h6>The Best Book Publishing Services in Town</h6>
                             <h4>Within Easy Reach</h4>
                             <div class="seal">
                                 <img src="assets/images/50-percent.png" alt="">
@@ -203,8 +208,10 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
     <div class="section-category">
         <div class="category-m"></div>
         <div class="container">
-            <h2>Why Choose Our<br> <span> Amazon Publishing Services</span> </h2>
-            <p>Choosing our Amazon publishing services means tapping into a world of expertise and opportunity. From unparalleled global reach to personalized support, we're committed to empowering authors at every step of their publishing journey. Experience the difference with us today.</p>
+            <h2>Why Hire<br> <span><?php echo WEBSITE_NAME; ?></span></h2>
+            <p>We sketch out your story in the words of our most gifted writers. It’s that simple. Our experienced
+                <?php echo WEBSITE_NAME; ?> for hire can conjure up well-researched content with insights and make sure
+                it is optimized for your target audience. </p>
             <ul class="category-list">
                 <li>
                     <img src="assets/images/categories/eb01.jpg" alt="feat-icon" width="99" height="103">
@@ -281,10 +288,13 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
             </ul>
             <div class="clear_fix"></div>
             <div class="txt-contact-bx">
-                <p><span>Start your </span> Amazon journey with us today and share your story with the world!</p>
+                <p><span>And that’s not all!</span> Check out some of our other <?php echo WEBSITE_NAME; ?> services!
+                </p>
                 <ul class="contact-lst">
-                    <li class="first"><a href="javascript:;" onclick="$zopim.livechat.window.toggle()"><span><img src="assets/images/chat-icon.png"></span>Live Chat Now</a></li>
-                    <li class="last"><a href="<?php echo PHONE_HREF; ?>"><span><img src="assets/images/tele-icon.png"></span><?php echo PHONE; ?></a></li>
+                    <li class="first"><a href="javascript:;" onclick="$zopim.livechat.window.toggle()"><span><img
+                                    src="assets/images/chat-icon.png"></span>Live Chat Now</a></li>
+                    <li class="last"><a href="<?php echo PHONE_HREF; ?>"><span><img
+                                    src="assets/images/tele-icon.png"></span><?php echo PHONE; ?></a></li>
                 </ul>
             </div>
         </div>
@@ -294,87 +304,145 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
             <div class="row">
                 <div class="col-md-6">
                     <div class="cta-txt">
-                        <h4>Looking for the Best Amazon Book Publisher? </h4>
-                        <h2>Professional Amazon Publishers are Available to Assist You at <?php echo WEBSITE_NAME; ?></h2>
+                        <h4>Do You Have an Untold Story?</h4>
+                        <h2>We Have Qualified <br><?php echo WEBSITE_NAME; ?> that<br> Love Challenges</h2>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="cta-txt-rit">
                         <img src="assets/images/stars.png">
-                        <p><?php echo WEBSITE_NAME; ?> Loves Challenges.</p>
-                        <a href="javascript:;" class="btn-popup"><img class="img-fluid" src="assets/images/btn-bg.png"></a>
+                        <p>We Have Qualified <?php echo WEBSITE_NAME; ?> that Love Challenges</p>
+                        <a href="javascript:;" class="btn-popup"><img class="img-fluid"
+                                src="assets/images/btn-bg.png"></a>
                         <ul class="contact-lst">
-                            <li class="first"><a href="javascript:;" onclick="$zopim.livechat.window.toggle()"><span><img src="assets/images/chat-icon.png"></span>Live Chat Now</a></li>
-                            <li class="last"><a href="<?php echo PHONE_HREF; ?>"><span><img src="assets/images/tele-icon.png"></span><?php echo PHONE; ?></a></li>
+                            <li class="first"><a href="javascript:;"
+                                    onclick="$zopim.livechat.window.toggle()"><span><img
+                                            src="assets/images/chat-icon.png"></span>Live Chat Now</a></li>
+                            <li class="last"><a href="<?php echo PHONE_HREF; ?>"><span><img
+                                            src="assets/images/tele-icon.png"></span><?php echo PHONE; ?></a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
+    <!-- <section class="how-it-work">
+            <div class="container">
+              <h2>How It <span>Works?</span></h2>
+              <p>With over a thousand completed eBooks in more than 30 genres, eBook writing has<br>become one of our strongest suits.</p>
+              <div id="hit-slidenav">
+                      <ul>
+                      <li><a href="javascript:void(0)" id="step1"><span>01</span><img src="assets/images/hw-step-01.png" width="50" height="47"></a></li>
+                      <li><a href="javascript:void(0)" id="step2"><span>02</span><img src="assets/images/hw-step-02.png" width="50" height="47"></a></li>
+                      <li><a href="javascript:void(0)" id="step3"><span>03</span><img src="assets/images/hw-step-03.png" width="50" height="47"></a></li>
+                      <li><a href="javascript:void(0)" id="step4"><span>04</span><img src="assets/images/hw-step-04.png" width="50" height="47"></a></li>
+                      <li><a href="javascript:void(0)" id="step5"><span>05</span><img src="assets/images/hw-step-05.png" width="50" height="47"></a></li>
+                      <li><a href="javascript:void(0)" id="step6"><span>06</span><img src="assets/images/hw-step-06.png" width="50" height="47"></a></li>
+                    
+                      </ul>
+                </div>
+                 <div id="hiw-sliderblock">
+                    <div id="owl-demo" class="howitwork-carousel">
+                    <div class="item">
+                      
+                      <div class="hiw-content">
+                        
+                        <h4 class="title_block">How It <span>Works?</span></h4>
+                        <p>When placing the order, we ask you to provide project details, such as the topic and Table of Contents (we’ll write one for you if you don’t have one), and your requirements. </p>
+                      </div>
+                      <div class="hiw-img"><img src="assets/images/how-work-im-1.png"></div>
+                      <div class="clear_fix"></div>
+                    </div>
+                    
+                    </div>
+                    </div>
+                    
+                    <div class="clear_fix"></div>
+            
+            </div>
+            </section> -->
     <div class="section-6 full-section">
         <div class="container">
             <div class="inner-container align-center">
-                <h2 class="title_block center">Our Amazon<span> Publishing Expertise</span></h2>
-                <p>Our Amazon publishing expertise guarantees your book reaches its fullest potential. Trust us to guide your publishing journey with precision and care.</p>
+                <h2 class="title_block center">Need <span>Captivating Content?</span></h2>
+                <p>With decades of experience in various industries and content categories, our highly qualified writers
+                    are prepared to generate enthralling content in lightning-quick turnaround times. </p>
             </div>
             <div id="hit-slidenav">
                 <ul>
-                    <li><a href="javascript:void(0)" id="step1"><span>1</span><img src="assets/images/hw-step-01.png" width="50" height="47"></a></li>
-                    <li><a href="javascript:void(0)" id="step2"><span>2</span><img src="assets/images/hw-step-02.png" width="50" height="47"></a></li>
-                    <li><a href="javascript:void(0)" id="step3"><span>3</span><img src="assets/images/hw-step-03.png" width="50" height="47"></a></li>
-                    <li><a href="javascript:void(0)" id="step4"><span>4</span><img src="assets/images/hw-step-04.png" width="50" height="47"></a></li>
-                    <li><a href="javascript:void(0)" id="step5"><span>5</span><img src="assets/images/hw-step-05.png" width="50" height="47"></a></li>
-                    <li><a href="javascript:void(0)" id="step6"><span>6</span><img src="assets/images/hw-step-06.png" width="50" height="47"></a></li>
+                    <li><a href="javascript:void(0)" id="step1"><span>1</span><img src="assets/images/hw-step-01.png"
+                                width="50" height="47"></a></li>
+                    <li><a href="javascript:void(0)" id="step2"><span>2</span><img src="assets/images/hw-step-02.png"
+                                width="50" height="47"></a></li>
+                    <li><a href="javascript:void(0)" id="step3"><span>3</span><img src="assets/images/hw-step-03.png"
+                                width="50" height="47"></a></li>
+                    <li><a href="javascript:void(0)" id="step4"><span>4</span><img src="assets/images/hw-step-04.png"
+                                width="50" height="47"></a></li>
+                    <li><a href="javascript:void(0)" id="step5"><span>5</span><img src="assets/images/hw-step-05.png"
+                                width="50" height="47"></a></li>
+                    <li><a href="javascript:void(0)" id="step6"><span>6</span><img src="assets/images/hw-step-06.png"
+                                width="50" height="47"></a></li>
                 </ul>
             </div>
             <div id="hiw-sliderblock">
                 <div id="owl-demo" class="owl-carousel howitwork-carousel">
                     <div class="item">
                         <div class="hiw-content">
-                            <h4 class="title_block">Amazon Kindle Direct Publishing (KDP) Support<span></span></h4>
-                            <p>Publish your eBook easily on the biggest digital shop in the world by using our Amazon Kindle Direct Publishing (KDP) Support. Get your book online and in front of people quickly by following our step-by-step instructions.</p>
+                            <h4 class="title_block">Provide <span>Order Details</span></h4>
+                            <p>When you place an order, we require you to fill in a short brief form. This enables us to
+                                get a first had grasp of the subject matter. We'll assign a writer who has knowledge and
+                                experience working with the desired genre.</p>
                         </div>
                         <div class="hiw-img"><img src="assets/images/how-work-im-1.png"></div>
                         <div class="clear_fix"></div>
                     </div>
                     <div class="item">
                         <div class="hiw-content">
-                            <h4 class="title_block">Professional Editing Services</h4>
-                            <p>Improve your work with our professional editing services. Our experienced writers will revise your work until it's perfect and ready to grab readers' attention. </p>
+                            <h4 class="title_block">Chapter <span>One for Approval</span></h4>
+                            <p>Instead of having you wait for the entire project to end, and then tell us that’s not the
+                                tone you wanted to follow. We'll send you the first chapter for approval, this lets you
+                                know the writing style, making any changes that you wish for.</p>
                         </div>
                         <div class="hiw-img"><img src="assets/images/how-work-im-2.png"></div>
                         <div class="clear_fix"></div>
                     </div>
                     <div class="item">
                         <div class="hiw-content">
-                            <h4 class="title_block">Book Cover Design</h4>
-                            <p>Utilize our captivating book cover design services to leave a lasting impact. Working with you, our skilled designers will make a cover that speaks to your readers and makes them want to pick up your book.</p>
+                            <h4 class="title_block">Revisions <span> Upon Feedback</span></h4>
+                            <p>It’s your book, and we know you want it to be exactly how you envisioned it. And we help
+                                you achieve that by getting feedback from you, working on your feedback, and the
+                                providing you the revised work again for approval. So that you are 100% satisfied.</p>
                         </div>
                         <div class="hiw-img"><img src="assets/images/how-work-im-3.png"></div>
                         <div class="clear_fix"></div>
                     </div>
                     <div class="item">
                         <div class="hiw-content">
-                            <h4 class="title_block">Professional Formatting Assistance</h4>
-                            <p>Utilize our expert formatting help to make sure your book looks its best. Formatting your book properly for both print and digital versions, from layout to typography, will make it easier to read and look better.</p>
+                            <h4 class="title_block">Editing and <span> Proofreading</span></h4>
+                            <p>Every project goes through a thorough QA process. In which a dedicated editor is assigned
+                                the book manuscript. The editor then goes through the entirety of the manuscript
+                                pointing out mistakes, that will then be corrected for a perfect manuscript.</p>
                         </div>
                         <div class="hiw-img"><img src="assets/images/how-work-im-4.png"></div>
                         <div class="clear_fix"></div>
                     </div>
                     <div class="item">
                         <div class="hiw-content">
-                            <h4 class="title_block">Global Distribution</h4>
-                            <p>Utilize our global distribution network to reach people all over the world. As a result of Amazon's huge reach, people in many countries will be able to read your book, which will greatly increase your possible audience and sales.</p>
+                            <h4 class="title_block">Book <span>Cover Design</span></h4>
+                            <p>In the modern world, a book without a cover is almost equal to not being a book
+                                altogether. Hence, we ensure that your book cover goes in sync with the book synopsis,
+                                piquing the reader's interest the first time they set eyes on your book.</p>
                         </div>
                         <div class="hiw-img"><img src="assets/images/how-work-im-5.png"></div>
                         <div class="clear_fix"></div>
                     </div>
                     <div class="item">
                         <div class="hiw-content">
-                            <h4 class="title_block">Marketing and Promotion Support</h4>
-                            <p>Our marketing and promotion support will help get more people to see your book. We'll help you engage your target audience and promote your book through social media and targeted advertising, increasing sales and engagement.</p>
+                            <h4 class="title_block">Final <span>Review and Delivery</span></h4>
+                            <p>Once all your proofing, editing, and designing is in place, we will compile the final
+                                manuscript for you to review one final time. Being our commitment to your satisfaction
+                                we allow you to get edits done at this stage too. However, in case you give the final
+                                go-ahead the book is finalized and delivered to you.</p>
                         </div>
                         <div class="hiw-img"><img src="assets/images/how-work-im-6.png"></div>
                         <div class="clear_fix"></div>
@@ -385,45 +453,52 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
             <div class="ct-button">
                 <a href="javascript:;" class="btn-popup">Let’s Get Started</a>
                 <ul class="contact-lst2">
-                    <li class="first"><a href="javascript:;" onclick="$zopim.livechat.window.toggle()"><span><img src="assets/images/chat-icon.png"></span>Live Chat Now</a></li>
-                    <li class="last"><a href="<?php echo PHONE_HREF; ?>"><span><img src="assets/images/tele-icon.png"></span><?php echo PHONE; ?></a></li>
+                    <li class="first"><a href="javascript:;" onclick="$zopim.livechat.window.toggle()"><span><img
+                                    src="assets/images/chat-icon.png"></span>Live Chat Now</a></li>
+                    <li class="last"><a href="<?php echo PHONE_HREF; ?>"><span><img
+                                    src="assets/images/tele-icon.png"></span><?php echo PHONE; ?></a></li>
                 </ul>
             </div>
         </div>
     </div>
     <section class="main-publication">
         <div class="container">
-            <h2>Implementing a Productive Marketing Strategy for your Books</h2>
-            <p>Have you already released your book but aren't getting the sales you hoped for? You can still reach your goals with our useful marketing plans. It's never too late to get the word out about your book with our helpful ideas. We use creative marketing techniques to get more people to read your work. </p>
+            <h2>Our <span>Versatile Writers</span> Are Practised in Different Voices, Genres, and Categories</h2>
+            <p>With a vision to produce quality content that is designed with assorted shades of creativity, our
+                <?php echo WEBSITE_NAME; ?> pour their experience in every aspect of your project. From an
+                easy-to-understand writing style to mesmerizing content structures, we know how to garner attention and
+                entice your target audience. </p>
             <div class="row">
                 <div class="col-md-12">
                     <div class="poster-main perspectiv-carousel">
                         <div class="poster-btn poster-prev-btn"></div>
                         <ul class="poster-list">
-                            <li class="poster-item">
-                                <a href="javascript:;"><img src="assets/images/sl10.png" />
-                                </a>
-                            </li>
-                            <li class="poster-item">
-                                <a href="javascript:;">
-                                    <img src="assets/images/sl4.png" />
-                                </a>
-                            </li>
-                            <li class="poster-item">
-                                <a href="javascript:;">
-                                    <img src="assets/images/sl6.png" />
-                                </a>
-                            </li>
-                            <li class="poster-item">
-                                <a href="javascript:;">
-                                    <img src="assets/images/sl7.png" />
-                                </a>
-                            </li>
-                            <li class="poster-item">
-                                <a href="javascript:;">
-                                    <img src="assets/images/sl8.png" />
-                                </a>
-                            </li>
+                            <ul class="poster-list">
+                                <li class="poster-item">
+                                    <a href="javascript:;"><img src="assets/images/sl10.png" />
+                                    </a>
+                                </li>
+                                <li class="poster-item">
+                                    <a href="javascript:;">
+                                        <img src="assets/images/sl4.png" />
+                                    </a>
+                                </li>
+                                <li class="poster-item">
+                                    <a href="javascript:;">
+                                        <img src="assets/images/sl6.png" />
+                                    </a>
+                                </li>
+                                <li class="poster-item">
+                                    <a href="javascript:;">
+                                        <img src="assets/images/sl7.png" />
+                                    </a>
+                                </li>
+                                <li class="poster-item">
+                                    <a href="javascript:;">
+                                        <img src="assets/images/sl8.png" />
+                                    </a>
+                                </li>
+                            </ul>
                         </ul>
                         <div class="poster-btn poster-next-btn"></div>
                     </div>
@@ -433,47 +508,57 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
             <div class="ct-button styl1">
                 <a href="javascript:;" class="btn-popup">Let’s Get Started</a>
                 <ul class="contact-lst2">
-                    <li class="first"><a href="javascript:;" onclick="$zopim.livechat.window.toggle()"><span><img src="assets/images/chat-icon.png"></span>Live Chat Now</a></li>
-                    <li class="last"><a href="<?php echo PHONE_HREF; ?>"><span><img src="assets/images/tele-icon.png"></span><?php echo PHONE; ?></a></li>
+                    <li class="first"><a href="javascript:;" onclick="$zopim.livechat.window.toggle()"><span><img
+                                    src="assets/images/chat-icon.png"></span>Live Chat Now</a></li>
+                    <li class="last"><a href="<?php echo PHONE_HREF; ?>"><span><img
+                                    src="assets/images/tele-icon.png"></span><?php echo PHONE; ?></a></li>
                 </ul>
             </div>
         </div>
     </section>
     <section class="best-value">
         <div class="container">
-            <h2><span>Maximize Your Book's</span> Success on Amazon through <?php echo WEBSITE_NAME; ?></h2>
-            <p>We'll handle everything from professional formatting and editing to eye-catching cover design and targeted marketing, ensuring your book reaches the right readers and achieves its full sales potential.</p>
+            <h2><span>Get Award-Winning </span> <?php echo WEBSITE_NAME; ?> Services in Budget-Friendly Packages</h2>
+            <p>Transforming your idea into a best-selling manuscript requires team effort, and we love working as a
+                team. Our <?php echo WEBSITE_NAME; ?> team offers end-to-end services which include:</p>
             <div class="row">
                 <div class="col-md-6">
                     <div class="value-bx">
-                        <h3><span><img src="assets/images/value-1.jpg"></span> Great Formatting & Design</h3>
-                        <p>We make your book look great in both Kindle and print formats, making it easy and enjoyable to read and helping it stand out from the crowd.</p>
+                        <h3><span><img src="assets/images/value-1.jpg"></span> Research</h3>
+                        <p>Once you’ve shared your ideas with us, <?php echo WEBSITE_NAME; ?> accesses numerous
+                            e-learning resources that are designed to support our writers in every step of developing
+                            your content. </p>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="value-bx">
-                        <h3><span><img src="assets/images/value-2.jpg"></span>Expert Editing & Proofreading</h3>
-                        <p>Our editors will improve your writing by making it clear, smooth, and error-free for a professional final product.</p>
+                        <h3><span><img src="assets/images/value-2.jpg"></span> Editing & Proofreading</h3>
+                        <p>Our editors ensure perfection by maintaining consistency in your final manuscript, catching
+                            typographical or grammatical errors, and double-checking facts for accuracy. </p>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="value-bx">
-                        <h3><span><img src="assets/images/value-3.jpg"></span> Glorious Covers</h3>
-                        <p>We design covers that grab readers' attention in your genre and make them want to choose your book instead of others.</p>
+                        <h3><span><img src="assets/images/value-3.jpg"></span> Designing, Typesetting & Publishing</h3>
+                        <p>We offer professional guidance so you can form effective strategies to have your final
+                            manuscript accepted by publishing agents and houses alike. </p>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="value-bx">
-                        <h3><span><img src="assets/images/value-4.jpg"></span>Marketing Help to Get Your Book Seen</h3>
-                        <p>We'll use our knowledge to help people find your book on Amazon, including finding the right keywords, writing a great description, and running effective ads.</p>
+                        <h3><span><img src="assets/images/value-4.jpg"></span> Promotion</h3>
+                        <p>Whether you need book promotion, book publicity, author promotion, or writer marketing,
+                            <?php echo WEBSITE_NAME; ?> knows exactly how to spread your story like wildfire.</p>
                     </div>
                 </div>
             </div>
             <div class="ct-button">
                 <a href="javascript:;" class="btn-popup">Let's get Started</a>
                 <ul class="contact-lst2">
-                    <li class="first"><a href="javascript:;" onclick="$zopim.livechat.window.toggle()"><span><img src="assets/images/chat-icon.png"></span>Live Chat Now</a></li>
-                    <li class="last"><a href="<?php echo PHONE_HREF; ?>"><span><img src="assets/images/tele-icon.png"></span><?php echo PHONE; ?></a></li>
+                    <li class="first"><a href="javascript:;" onclick="$zopim.livechat.window.toggle()"><span><img
+                                    src="assets/images/chat-icon.png"></span>Live Chat Now</a></li>
+                    <li class="last"><a href="<?php echo PHONE_HREF; ?>"><span><img
+                                    src="assets/images/tele-icon.png"></span><?php echo PHONE; ?></a></li>
                 </ul>
             </div>
         </div>
@@ -486,41 +571,61 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                 </div>
                 <div class="col-md-7">
                     <div class="testimonials-text">
-                        <h5>Clients Reviews</h5>
-                        <h3>Just Go Through The Opinions of Our Clients</h3>
+                        <h5>Client Testimonials</h5>
+                        <h3>Don’t Just Take Our Word for It</h3>
                         <div class="reviw-testi testi-sldier">
                             <div>
-                                <p>I don't really understand the Amazon process, to be really honest. There I hired <?php echo WEBSITE_NAME; ?> for my adorable book. I want it to be published worldwide through their services. And I know I got the results I wanted.</p>
+                                <p>“I am glad that I trusted <?php echo WEBSITE_NAME; ?> for their
+                                    <?php echo WEBSITE_NAME; ?> services! The team that I worked with managed to
+                                    maintain a high level of professionalism throughout the timeline of the project and
+                                    they submitted exactly what I was looking for. Good job guys!”</p>
                                 <div class="star-name">
-                                    <h6>Anna J.</h6>
+                                    <h6>Anne Gardner</h6>
                                     <img src="assets/images/stars-review.jpg">
                                 </div>
                             </div>
                             <div>
-                                <p>Amazon formatting is quite tough. I wanted some Amazon experts who could do this very task for me. I availed the experts from <?php echo WEBSITE_NAME; ?> and I am glad that I made the best choice of my life. Thanks to the entire crew.</p>
+                                <p>“Working with <?php echo WEBSITE_NAME; ?> was a pleasure and I can’t imagine
+                                    receiving better content from any other agency. They managed to deliver exactly what
+                                    we discussed in the initial brief and kept me in the loop throughout the timeline of
+                                    the project– perhaps because I was a little reluctant on trusting their writers at
+                                    first. I take my words back and appreciate the additional effort!”</p>
                                 <div class="star-name">
-                                    <h6>Mike Hampton</h6>
+                                    <h6>Emilie Robertson</h6>
                                     <img src="assets/images/stars-review.jpg">
                                 </div>
                             </div>
                             <div>
-                                <p><?php echo WEBSITE_NAME; ?> is master at Amazon book publishing services. They know how to publish a book successfully on the Amazon platform, and their team cooperates well during the whole process.</p>
+                                <p>“I needed some help in writing a book for my students. Even though I had a lot of
+                                    material and resources for inspiration, my schedule didn’t allow me to actually sit
+                                    down, and fan the flames of a long-lost hobby. Long story short, I stumbled upon
+                                    this brilliant agency and my students absolutely love my lectures! Naturally, I plan
+                                    on hiring them again very soon!”</p>
                                 <div class="star-name">
-                                    <h6>Alex S.</h6>
+                                    <h6>Bruce Owens</h6>
                                     <img src="assets/images/stars-review.jpg">
                                 </div>
                             </div>
                             <div>
-                                <p>We know the importance of Amazon to market yourself, but the problem is to market it properly. My team at <?php echo WEBSITE_NAME; ?> was truly phenomenal and knew all the tactics to do the job. I have promoted my business successfully there.</p>
+                                <p>“<?php echo WEBSITE_NAME; ?> is the best! I am an accomplished writer myself and I
+                                    was pretty excited to get my work done from these guys. Perhaps the biggest
+                                    compliment I can give these guys is that I learned a thing or two about writing
+                                    compelling content throughout the timeline of my project. Of course, this only
+                                    happened because they kept me in the loop from start to finish. Keep up the good
+                                    work guys!”</p>
                                 <div class="star-name">
-                                    <h6>John William</h6>
+                                    <h6>Portia Fey</h6>
                                     <img src="assets/images/stars-review.jpg">
                                 </div>
                             </div>
                             <div>
-                                <p><?php echo WEBSITE_NAME; ?>'s Amazon services for ebooks are really up to the mark. Sometimes, you just choose an agency and then do the wonders you could only imagine at times. This agency is something like this for me. </p>
+                                <p>“This is a special shoutout to George and his team in <?php echo WEBSITE_NAME; ?>
+                                    because they managed to conjure up a well-thought-out memoir for me so I could gift
+                                    it to my wife on our wedding. To read your own biography as if it was a fairytale is
+                                    probably the best wedding gift and I know now that the <?php echo WEBSITE_NAME; ?>
+                                    at <?php echo WEBSITE_NAME; ?> are up to the challenge. P.S. my wife loves it!”</p>
                                 <div class="star-name">
-                                    <h6>Alex B.</h6>
+                                    <h6>John Sumner</h6>
                                     <img src="assets/images/stars-review.jpg">
                                 </div>
                             </div>
@@ -535,7 +640,8 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
             <div class="row">
                 <div class="col-md-12">
                     <h2>Frequently <span>Asked Questions</span></h2>
-                    <p>Please read out the most commonly asked questions related to our Amazon publishing services below:</p>
+                    <p>Got questions? Quickly find out whether we’ve already addressed your queries for our previous
+                        clients. If you still have questions, we can have them answered via live chat or by phone. </p>
                 </div>
             </div>
             <div class="row">
@@ -543,69 +649,117 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                     <div class="faq-sec">
                         <ul class="accordian">
                             <li class="first active">
-                                <h4>What is Amazon's book publishing service?</h4>
+                                <h4>Can you write me a book that I can publish with my name?</h4>
                                 <div style="display: block;">
-                                    <p>Amazon offers services for authors to self-publish their work through Kindle Direct Publishing (KDP) for eBooks and print-on-demand paperbacks.</p>
+                                    <p>Of course, we can because that’s what <?php echo WEBSITE_NAME; ?> do. In fact,
+                                        our <?php echo WEBSITE_NAME; ?> work tirelessly so they can eloquently narrate
+                                        your story to the world and win your approval. </p>
                                 </div>
                             </li>
                             <li class="">
-                                <h4>How much does it cost to publish a book on Amazon?</h4>
+                                <h4>Who will get the editing credits for my book?</h4>
                                 <div style="display: none;">
-                                    <p>Publishing through KDP is essentially free. Amazon takes a percentage of royalties based on file size and whether you choose an expanded distribution.</p>
+                                    <p><?php echo WEBSITE_NAME; ?> is defined as the practice of hiring writers for a
+                                        project that will officially be credited to another company or individual. In
+                                        other words, these companies or individuals will be credited as the author while
+                                        <?php echo WEBSITE_NAME; ?> will only strive to satisfy the client that hired
+                                        them. </p>
                                 </div>
                             </li>
                             <li class="">
-                                <h4>Do I keep the rights to my book when I publish it on Amazon?</h4>
+                                <h4>Who gets the ownership rights once my project is complete?</h4>
                                 <div style="display: none;">
-                                    <p>Yes, you retain full rights to your work.</p>
+                                    <p>Since <?php echo WEBSITE_NAME; ?> are paid to work anonymously for an individual
+                                        or company, the final manuscript and its content is owned by the people who
+                                        hired them. In other words, the copyright for this work will be owned by them as
+                                        well. Also, Copyright Law states that as soon as your project is created, it
+                                        qualifies as ‘protected work’. </p>
                                 </div>
                             </li>
                             <li class="">
-                                <h4>What formats can I publish on Amazon?</h4>
+                                <h4>What if the writer claims rights for the work later?</h4>
                                 <div style="display: none;">
-                                    <p>KDP supports eBooks (Kindle format) and paperback books.</p>
+                                    <p>You don’t need to claim rights or apply for copyrights to protect your final
+                                        manuscript from infringers. If you hire our <?php echo WEBSITE_NAME; ?>, then
+                                        you own the copyrights for your work by default. By registering your work for
+                                        copyrights, you can establish further legal bona fides as a failsafe.</p>
                                 </div>
                             </li>
                             <li class="last">
-                                <h4>How do I get paid?</h4>
+                                <h4>Should I be worried about ownership rights of the content?</h4>
                                 <div style="display: none;">
-                                    <p>Amazon issues royalty payments monthly, around sixty days subsequent to the conclusion of the month during which sales transpire.</p>
+                                    <p>Before hiring our <?php echo WEBSITE_NAME; ?>, we have them sign comprehensive
+                                        <?php echo WEBSITE_NAME; ?> contracts as well as nondisclosure agreements. This
+                                        means that your assigned <?php echo WEBSITE_NAME; ?> cannot claim the rights to
+                                        or discuss any part of your project. Simply put, our <?php echo WEBSITE_NAME; ?>
+                                        cannot claim credit for your final manuscript or work-in-progress content.</p>
                                 </div>
                             </li>
                             <li class="last">
-                                <h4>Can I make my book available for pre-order?</h4>
+                                <h4>Should I be worried about ownership rights of the content?</h4>
                                 <div style="display: none;">
-                                    <p>Yes, Amazon allows you to set up pre-orders for your eBooks and paperbacks.</p>
+                                    <p>Before hiring our <?php echo WEBSITE_NAME; ?>, we have them sign comprehensive
+                                        <?php echo WEBSITE_NAME; ?> contracts as well as nondisclosure agreements. This
+                                        means that your assigned <?php echo WEBSITE_NAME; ?> cannot claim the rights to
+                                        or discuss any part of your project. Simply put, our <?php echo WEBSITE_NAME; ?>
+                                        cannot claim credit for your final manuscript or work-in-progress content.</p>
                                 </div>
                             </li>
                             <li class="last">
-                                <h4>Does Amazon help with marketing my book?</h4>
+                                <h4>What do you need from my end to write an e-book for me?</h4>
                                 <div style="display: none;">
-                                    <p>Amazon offers marketing tools, but successful promotion is largely the author's responsibility.</p>
+                                    <p>When hiring a ghostwriter to write an e-book, you should have a basic idea of
+                                        what you want it to be about – a particular interest, themes, certain people you
+                                        want to study. The writer will then decide what needs to be researched and how
+                                        to go about it. They will create a basic outline and a synopsis for you to
+                                        approve before working on the manuscript. Once they get the approval, they start
+                                        drafting chapters one by one, getting them approved, making any required edits,
+                                        and then refining the final manuscript for publication. </p>
                                 </div>
                             </li>
                             <li class="last">
-                                <h4>What is Kindle Unlimited?</h4>
+                                <h4>Should I disclose that my book was ghostwritten when I get published?</h4>
                                 <div style="display: none;">
-                                    <p>Kindle Unlimited is a subscription service where readers pay a monthly fee for access to a large library of ebooks. Authors enrolled in KDP Select (explained below) have their books included.</p>
+                                    <p>If you plan on publishing your book, be it self-published or hiring a publishing
+                                        company, no one needs to know that you hired a ghostwriter. By entering a legal
+                                        contract with a <?php echo WEBSITE_NAME; ?> company, you completely own your
+                                        book and everything within it. You are not bound to disclose the fact that a
+                                        ghostwriter actually wrote the book to anyone. A non-disclosure agreement can
+                                        safeguard your privacy.</p>
                                 </div>
                             </li>
                             <li class="last">
-                                <h4>What is KDP Select?</h4>
+                                <h4>Will I be kept in the loop while my book is being ghostwritten?</h4>
                                 <div style="display: none;">
-                                    <p>KDP Select grants Amazon exclusivity for your eBook in exchange for inclusion in Kindle Unlimited and potential promotional benefits.</p>
+                                    <p>When working with a ghostwriter, it is ideal to periodically monitor their
+                                        progress to see if their writing matches the tone, language, and style you have
+                                        in mind for your book. You can get in touch with the writer directly and discuss
+                                        how often you can read up on drafts, be it after every chapter is completed or a
+                                        few chapters in. Work out a schedule and deadlines that work best for you both
+                                        to ensure satisfaction. </p>
                                 </div>
                             </li>
                             <li class="last">
-                                <h4>Will Amazon publish hardcover versions of my book?</h4>
+                                <h4>How many revisions can I request?</h4>
                                 <div style="display: none;">
-                                    <p>Currently, no. Amazon's self-publishing focuses primarily on eBook and paperback formats.</p>
+                                    <p>Client satisfaction is our top-most priority and for this sole reason we offer
+                                        unlimited revisions for you to request until you’re completely satisfied with
+                                        the outcome. Our <?php echo WEBSITE_NAME; ?> are more than willing to make any
+                                        changes, minor or major, that you require. The book is your brainchild and our
+                                        writers help conceptualize it, so we try to deliver as accurate a final
+                                        manuscript as possible. </p>
                                 </div>
                             </li>
                             <li class="last">
-                                <h4>Can I get help with book cover design and editing through Amazon?</h4>
+                                <h4>Can <?php echo WEBSITE_NAME; ?> agencies also help publish and market my final
+                                    manuscript?</h4>
                                 <div style="display: none;">
-                                    <p>Yes, but these are separate services that come with additional costs.</p>
+                                    <p><?php echo WEBSITE_NAME; ?> can not only help you complete your book but they can
+                                        also connect you to renowned publishing houses before marketing it through
+                                        appropriate channels. If you want to self-publish your book, our company will
+                                        spare no effort in refining and editing it. Once it has been published, we also
+                                        assist you in launching a marketing campaign for your work and increasing
+                                        outreach to make it a commercial success. </p>
                                 </div>
                             </li>
                         </ul>
@@ -620,8 +774,10 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                 <div class="row">
                     <div class="col-md-6 pad-r-zero">
                         <div class="footer-left">
-                            <h3>Every Writer <span>Should Avail </span>the Right Agency</h3>
-                            <p>People should pay attention to your story. If you work with us, we'll launch your book on Amazon like a pro, and your sales will soar. Our careful writing, sharp editing, eye-catching cover designs, and smart marketing strategies will get people to read your book, make it more visible, and help you make as many sales as possible. You can trust us to turn your work into a best-seller on Amazon.</p>
+                            <h3>We Write, <span>So Your Story </span> Reaches the Right Audiences</h3>
+                            <p>
+                            If you’re searching for affordable <?php echo WEBSITE_NAME; ?>, <?php echo WEBSITE_NAME; ?> offers highly skilled teams to convey your voice and tone in a manner that will inspire your desired results. Our entire team is eager to fulfill your content needs and get your story in front of your target audience.
+                            </p>
                             <img src="assets/images/footer-img-01.png" alt="" />
                             <img src="assets/images/footer-img-02.png" alt="" />
                         </div>
@@ -888,104 +1044,104 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
     <script type="text/javascript" src="assets/js/js-libs.js"></script>
 
     <script>
-    new WOW().init();
+        new WOW().init();
     </script>
 
     <script type="text/javascript">
-    function setButtonURL() {
-        $zopim.livechat.window.show();
-    }
+        function setButtonURL() {
+            $zopim.livechat.window.show();
+        }
     </script>
     <script>
-    $(".perspectiv-carousel").PicCarousel({
-        height: 600,
-        width: 800,
-        posterWidth: 192,
-        posterHeight: 282,
-        scale: 0.9,
-        speed: 1000,
-        autoPlay: true,
-        delay: 1000,
-        verticalAlign: "middle",
-    });
+        $(".perspectiv-carousel").PicCarousel({
+            height: 600,
+            width: 800,
+            posterWidth: 192,
+            posterHeight: 282,
+            scale: 0.9,
+            speed: 1000,
+            autoPlay: true,
+            delay: 1000,
+            verticalAlign: "middle",
+        });
     </script>
 
     <!--timer js-->
     <script>
-    (function() {
-        const second = 1000,
-            minute = second * 60,
-            hour = minute * 60,
-            day = hour * 24;
+        (function() {
+            const second = 1000,
+                minute = second * 60,
+                hour = minute * 60,
+                day = hour * 24;
 
-        // Set the target date to July 31, 2024
-        const targetDate = "07/31/2024";
+            // Set the target date to July 31, 2024
+            const targetDate = "07/31/2024";
 
-        const countDown = new Date(targetDate).getTime(),
-            x = setInterval(function() {
-                const now = new Date().getTime(),
-                    distance = countDown - now;
+            const countDown = new Date(targetDate).getTime(),
+                x = setInterval(function() {
+                    const now = new Date().getTime(),
+                        distance = countDown - now;
 
-                // Update the countdown timer
-                document.getElementById("days").innerText = Math.floor(
-                    distance / day
-                );
-                document.getElementById("hours").innerText = Math.floor(
-                    (distance % day) / hour
-                );
-                document.getElementById("minutes").innerText = Math.floor(
-                    (distance % hour) / minute
-                );
-                document.getElementById("seconds").innerText = Math.floor(
-                    (distance % minute) / second
-                );
+                    // Update the countdown timer
+                    document.getElementById("days").innerText = Math.floor(
+                        distance / day
+                    );
+                    document.getElementById("hours").innerText = Math.floor(
+                        (distance % day) / hour
+                    );
+                    document.getElementById("minutes").innerText = Math.floor(
+                        (distance % hour) / minute
+                    );
+                    document.getElementById("seconds").innerText = Math.floor(
+                        (distance % minute) / second
+                    );
 
-                // Actions when the countdown reaches zero
-                if (distance < 0) {
-                    document.getElementById("headline").innerText =
-                        "It's my birthday!";
-                    document.getElementById("countdown").style.display = "none";
-                    document.getElementById("content").style.display = "block";
-                    clearInterval(x);
-                }
-            }, 1000); // Adjusted interval to 1000 milliseconds (1 second) for smoother updates
-    })();
+                    // Actions when the countdown reaches zero
+                    if (distance < 0) {
+                        document.getElementById("headline").innerText =
+                            "It's my birthday!";
+                        document.getElementById("countdown").style.display = "none";
+                        document.getElementById("content").style.display = "block";
+                        clearInterval(x);
+                    }
+                }, 1000); // Adjusted interval to 1000 milliseconds (1 second) for smoother updates
+        })();
 
-    // Animations call
+        // Animations call
 
-    AOS.init({
-        duration: 1200,
-        // once: true,
-    });
+        AOS.init({
+            duration: 1200,
+            // once: true,
+        });
 
-    // new WOW().init();
+        // new WOW().init();
 
-    // end Animation
+        // end Animation
 
-    // scroll behavior
-    window.scroll({
-        behavior: "smooth",
-    });
+        // scroll behavior
+        window.scroll({
+            behavior: "smooth",
+        });
     </script>
     <!--timer js-->
 
     <script src="7771cc6153.js" crossorigin="anonymous"></script>
     <script>
-    $(document).ready(function() {
-        $(".btn-submit").click(function(e) {
-            var button = $(this);
-            var form = button.closest("form")[0];
+        $(document).ready(function() {
+            $(".btn-submit").click(function(e) {
+                var button = $(this);
+                var form = button.closest("form")[0];
 
-            if (form.checkValidity()) {
-                e.preventDefault();
+                if (form.checkValidity()) {
+                    e.preventDefault();
 
-                button.prop("disabled", true).text("Submitting...");
-                form.submit();
-            } else {
-                form.classList.add("was-validated");
-            }
+                    button.prop("disabled", true).text("Submitting...");
+                    form.submit();
+                } else {
+                    form.classList.add("was-validated");
+                }
+            });
         });
-    });
     </script>
 </body>
 
