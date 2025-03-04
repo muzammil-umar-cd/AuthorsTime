@@ -35,8 +35,8 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
   <link href="css2?family=Poppins:wght@300;400;500;700;900&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="assets/css/owl.carousel.css" />
   <link rel="stylesheet" href="assets/css/style.css" />
-  <link rel="shortcut icon" href="/favicon.png" type="image/x-icon" />
-  <link rel="icon" href="assets/images/favicon.png" type="image/x-icon" />
+  <link rel="shortcut icon" href="https://authorstime.com/fav.png" type="image/x-icon" />
+  <link rel="icon" href="https://authorstime.com/fav.png" type="image/x-icon" />
 
     <!-- Start of designneshelp Zendesk Widget script -->
     <script id="ze-snippet"
