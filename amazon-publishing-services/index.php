@@ -741,14 +741,18 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
     <footer>
         <div class="container">
             <div class="row align-items-center ft-log">
-                <div class="col-md-6">
+            <div class="col-md-4">
                     <p style="padding: 25px 0 10px 0;">
                         Copyright © 2025
                         <a href="javascript:;"> <?php echo WEBSITE_NAME; ?> </a> | All rights
                         reserved.
                     </p>
                 </div>
-                <div class="col-md-6 text-right">
+                <div class="col-md-4" style="font-size: 12px;">
+                    <i class="fas fa-map-marker"></i>
+                    <?php echo ADDRESS; ?>
+                </div>
+                <div class="col-md-4 text-right">
                     <img src="assets/images/footerlogo.jpg" />
                 </div>
             </div>
