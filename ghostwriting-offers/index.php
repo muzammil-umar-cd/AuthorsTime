@@ -820,7 +820,7 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                         <img src="assets/offer/images/review-3.webp" alt="" class="img-fluid">
                         <h3>Josh J. Perry</h3>
                         <span>Bestselling Author</span>
-                        <p>Editing skills of the <?php echo WEBSITE_NAME; ?>team has significantly raised the
+                        <p>Editing skills of the <?php echo WEBSITE_NAME; ?> team has significantly raised the
                             quality of my manuscript. I am very thankful for their services. The money spent was worth it.
                             Totally recommended!</p>
                     </div>
@@ -1007,7 +1007,23 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
     <!--form Modal Popup-->
 
     <script src="assets/offer/js/plugin.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(".btn-submit").click(function(e) {
+                var button = $(this);
+                var form = button.closest("form")[0];
 
+                if (form.checkValidity()) {
+                    e.preventDefault();
+
+                    button.prop("disabled", true).text("Submitting...");
+                    form.submit();
+                } else {
+                    form.classList.add("was-validated");
+                }
+            });
+        });
+    </script>
     <script>
         $('.chat, .live_chatt, .chatt').click(function() {
             $zopim.livechat.window.toggle();
