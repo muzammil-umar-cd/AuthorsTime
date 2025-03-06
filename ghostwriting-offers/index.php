@@ -870,7 +870,7 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                                     </div>
                                     <div class="col-md-12 pl-lg-0">
                                         <div class="contact-form-control">
-                                            <textarea name="messsage" id="msg" placeholder="Your Message..." data-validation="required" rows="5"></textarea>
+                                            <textarea name="message" id="msg" placeholder="Your Message..." data-validation="required" rows="5"></textarea>
                                         </div>
                                     </div>
                                     <div class="col-md-12 pl-lg-0">
