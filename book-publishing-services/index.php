@@ -124,17 +124,17 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                                 <div class="row">
                                     <div class="col-md-12">
                                         <input type="text" class="required form-control" name="name"
-                                            placeholder="Full Name">
+                                            placeholder="Full Name" required>
                                     </div>
                                     <div class="col-md-12">
                                         <input type="email" class="required form-control email" name="email"
-                                            placeholder="Email Address">
+                                            placeholder="Email Address" required>
                                     </div>
                                     <div class="col-md-12">
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <input type="tel" class="required form-control  number ftpn"
-                                                    name="phone" placeholder="Phone No">
+                                                    name="phone" placeholder="Phone No" required>
                                             </div>
                                             <div class="col-md-6">
                                                 <input type="text" name="genre" class="required form-control"
@@ -802,17 +802,17 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="footer-form-input">
-                                                <input type="text" name="name" data-name="name" placeholder="Full Name" required />
+                                                <input type="text" name="name" placeholder="Full Name" required />
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="footer-form-input">
-                                                <input type="tel" name="phone" data-name="phone" placeholder="Phone Number" required />
+                                                <input type="tel" name="phone" placeholder="Phone Number" required />
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="footer-form-input">
-                                                <input type="email" name="email" data-name="email" placeholder="Email" required />
+                                                <input type="email" name="email" placeholder="Email" required />
                                             </div>
                                         </div>
                                         <div class="col-md-6">
