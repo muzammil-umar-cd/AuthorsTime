@@ -22968,6 +22968,8 @@ ul {
   font-size: 24px;
   text-transform: uppercase;
   font-family: Poppins, sans-serif;
+  border-bottom-right-radius: 40px;
+  border-top-left-radius: 40px;
 }
 .banner_form_btn:hover {
   background: #000;
