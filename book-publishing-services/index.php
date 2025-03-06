@@ -802,17 +802,17 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="footer-form-input">
-                                                <input type="text" name="name" placeholder="Full Name" required />
+                                                <input type="text" name="name" data-name="name" placeholder="Full Name" required />
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="footer-form-input">
-                                                <input type="tel" name="phone" placeholder="Phone Number" required />
+                                                <input type="tel" name="phone" data-name="phone" placeholder="Phone Number" required />
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="footer-form-input">
-                                                <input type="email" name="email" placeholder="Email" required />
+                                                <input type="email" name="email" data-name="email" placeholder="Email" required />
                                             </div>
                                         </div>
                                         <div class="col-md-6">
