@@ -1025,8 +1025,6 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
             });
         });
     </script>
-    <audio id="notificationSound" src="notification.mp3" preload="auto"></audio>
-
     <script>
     $(document).ready(function() {
         var originalTitle = document.title;
