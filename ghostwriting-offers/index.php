@@ -1005,7 +1005,7 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
         </div>
     </div>
     <!--form Modal Popup-->
-    <audio style="display: none;" id="notificationSound" src="assets/offer/notification.mp3" playsinline="" preload="auto"></audio>
+    <audio style="display: none;" id="notificationSound" src="assets/offer/notification.mp3" preload="auto"></audio>
 
     <script src="assets/offer/js/plugin.js"></script>
     <script>
