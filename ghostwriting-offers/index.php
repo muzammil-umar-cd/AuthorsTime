@@ -1045,8 +1045,8 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                 blinkInterval = setInterval(function() {
                     document.title = (document.title === originalTitle) ? attentionTitle : originalTitle;
                 }, 1000);
-                startNotificationSound();
             }
+            startNotificationSound();
         }
 
         function stopBlinkingTitle() {
