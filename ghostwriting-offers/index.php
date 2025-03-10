@@ -1025,11 +1025,12 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
             });
         });
     </script>
+    <audio id="notificationSound" src="notification.mp3" preload="auto"></audio>
+
     <script>
         $(document).ready(function() {
             var originalTitle = document.title;
-            var attentionTitle = "💬 New message!";
-            var attentionTitle2 = "💬 You're Missing a Big Discount!";
+            var attentionTitle = "💬 New Message!";
             var blinkInterval = null;
             var afkTimeout = null;
             var isAFK = false;
@@ -1037,11 +1038,7 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
             var tabAwayTime = 1000; // 10 seconds before blinking starts
             var hasUnreadMessage = false;
             var soundInterval = null;
-            var soundTimeout = 60000;
-
-            zE(function() {
-                zE.activate();
-            });
+            var soundTimeout = 20000; // Play sound every 20 seconds
 
             function startBlinkingTitle() {
                 if (!blinkInterval && hasUnreadMessage) {
@@ -1068,7 +1065,9 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                 isAFK = false;
                 afkTimeout = setTimeout(function() {
                     isAFK = true;
-                    startBlinkingTitle();
+                    if (hasUnreadMessage) {
+                        startBlinkingTitle();
+                    }
                 }, afkTime);
             }
 
@@ -1083,13 +1082,15 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
             $(window).on("focus", function() {
                 stopBlinkingTitle();
                 resetAfkTimer();
+                hasUnreadMessage = false; // Mark messages as read
             });
-
 
             function startNotificationSound() {
                 if (!soundInterval) {
                     soundInterval = setInterval(function() {
-                        document.getElementById("notificationSound").play();
+                        if (hasUnreadMessage) {
+                            document.getElementById("notificationSound").play();
+                        }
                     }, soundTimeout);
                 }
             }
@@ -1101,17 +1102,20 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                 }
             }
 
-            function simulateNewChatMessage() {
-                if (isAFK) {
-                    startBlinkingTitle();
+            function checkZendeskMessages() {
+                if (window.zE && window.zE('messenger:get', 'unreadCount') > 0) {
+                    hasUnreadMessage = true;
+                    if (isAFK || document.hidden) {
+                        startBlinkingTitle();
+                    }
                 }
             }
 
-            setTimeout(simulateNewChatMessage, 1000);
-
+            setInterval(checkZendeskMessages, 5000);
             resetAfkTimer();
         });
     </script>
+
     <script>
         $('.chat, .live_chatt, .chatt').click(function() {
             $zopim.livechat.window.toggle();
