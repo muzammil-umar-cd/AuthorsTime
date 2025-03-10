@@ -977,98 +977,92 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
     });
     </script>
     <script>
-        $(document).ready(function() {
-            var originalTitle = document.title;
-            var attentionTitle = "💬 New Message!";
-            var blinkInterval = null;
-            var afkTimeout = null;
-            var isAFK = false;
-            var afkTime = 3000; // 30 seconds for AFK detection
-            var tabAwayTime = 1000; // 10 seconds before blinking starts
-            var hasUnreadMessage = false;
-            var soundInterval = null;
-            var soundTimeout = 20000; // Play sound every 20 seconds
+    $(document).ready(function() {
+        var originalTitle = document.title;
+        var attentionTitle = "💬 New message!";
+        var blinkInterval = null;
+        var afkTimeout = null;
+        var isAFK = false;
+        var afkTime = 3000; // 30 seconds for AFK detection
+        var tabAwayTime = 1000; // 10 seconds before blinking starts
+        var soundInterval = null;
+        var soundTimeout = 20000;
 
-            function startBlinkingTitle() {
-                if (!blinkInterval && hasUnreadMessage) {
-                    blinkInterval = setInterval(function() {
-                        document.title = (document.title === originalTitle) ? attentionTitle : originalTitle;
-                    }, 1000);
-                }
-                startNotificationSound();
+        function startBlinkingTitle() {
+            if (!blinkInterval) {
+                blinkInterval = setInterval(function() {
+                    document.title = (document.title === originalTitle) ? attentionTitle : originalTitle;
+                }, 1000);
             }
+            startNotificationSound();
+        }
 
-            function stopBlinkingTitle() {
-                if (blinkInterval) {
-                    clearInterval(blinkInterval);
-                    blinkInterval = null;
-                    document.title = originalTitle;
-                }
-                stopNotificationSound();
+        function stopBlinkingTitle() {
+            if (blinkInterval) {
+                clearInterval(blinkInterval);
+                blinkInterval = null;
+                document.title = originalTitle;
             }
+            stopNotificationSound();
+        }
 
-            function resetAfkTimer() {
-                if (afkTimeout) {
-                    clearTimeout(afkTimeout);
-                }
-                isAFK = false;
-                afkTimeout = setTimeout(function() {
-                    isAFK = true;
-                    if (hasUnreadMessage) {
-                        startBlinkingTitle();
-                    }
-                }, afkTime);
+        function resetAfkTimer() {
+            if (afkTimeout) {
+                clearTimeout(afkTimeout);
             }
+            isAFK = false;
+            afkTimeout = setTimeout(function() {
+                isAFK = true;
+                startBlinkingTitle();
+            }, afkTime);
+        }
 
-            $(window).on("blur", function() {
-                setTimeout(function() {
-                    if (document.hidden) {
-                        startBlinkingTitle();
-                    }
-                }, tabAwayTime);
-            });
-
-            $(window).on("focus", function() {
-                stopBlinkingTitle();
-                resetAfkTimer();
-                hasUnreadMessage = false; // Mark messages as read
-            });
-
-            $(document).on("mousemove keydown click", function() {
-                stopBlinkingTitle();
-                resetAfkTimer();
-            });
-
-            function startNotificationSound() {
-                if (!soundInterval) {
-                    soundInterval = setInterval(function() {
-                        if (hasUnreadMessage) {
-                            document.getElementById("notificationSound").play();
-                        }
-                    }, soundTimeout);
+        $(window).on("blur", function() {
+            setTimeout(function() {
+                if (document.hidden) {
+                    startBlinkingTitle();
                 }
-            }
+            }, tabAwayTime);
+        });
 
-            function stopNotificationSound() {
-                if (soundInterval) {
-                    clearInterval(soundInterval);
-                    soundInterval = null;
-                }
-            }
-
-            function checkZendeskMessages() {
-                if (window.zE && window.zE('messenger:get', 'unreadCount') > 0) {
-                    hasUnreadMessage = true;
-                    if (isAFK || document.hidden) {
-                        startBlinkingTitle();
-                    }
-                }
-            }
-
-            setInterval(checkZendeskMessages, 5000);
+        $(window).on("focus", function() {
+            stopBlinkingTitle();
             resetAfkTimer();
         });
-    </script>
+
+        $(document).on("mousemove keydown click", function() {
+            stopBlinkingTitle();
+            resetAfkTimer();
+        });
+
+        function startNotificationSound() {
+            if (!soundInterval) {
+                soundInterval = setInterval(function() {
+                    if (hasUnreadMessage) {
+                        document.getElementById("notificationSound").play();
+                    }
+                }, soundTimeout);
+            }
+        }
+
+        function stopNotificationSound() {
+            if (soundInterval) {
+                clearInterval(soundInterval);
+                soundInterval = null;
+            }
+        }
+
+        function simulateNewChatMessage() {
+            if (isAFK) {
+                startBlinkingTitle();
+            }
+        }
+
+        setTimeout(simulateNewChatMessage, 1000);
+
+        resetAfkTimer();
+    });
+</script>
 
 
     <script src="assets/js/custom.js"></script>
