@@ -1035,6 +1035,7 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
             var isAFK = false;
             var afkTime = 3000; // 30 seconds for AFK detection
             var tabAwayTime = 1000; // 10 seconds before blinking starts
+            var hasUnreadMessage = false;
             var soundInterval = null;
             var soundTimeout = 60000;
 
@@ -1050,8 +1051,6 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                 }
                 startNotificationSound();
             }
-
-
 
             function stopBlinkingTitle() {
                 if (blinkInterval) {

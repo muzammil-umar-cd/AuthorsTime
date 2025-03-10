@@ -117,15 +117,15 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                                 <input type="hidden" name="region" value="<?php echo $locationData->regionName; ?>" />
                                 <input type="hidden" name="url" value="<?php echo $currentFullURL; ?>" />
                                 <div class="row">
-                                    <div class="col-md-12">
+                                    <div class="col-md-12 col-sm-10">
                                         <input type="text" class="required form-control" name="name"
                                             placeholder="Full Name" required>
                                     </div>
-                                    <div class="col-md-12">
+                                    <div class="col-md-12 col-sm-10">
                                         <input type="email" class="required form-control email" name="email"
                                             placeholder="Email Address" required>
                                     </div>
-                                    <div class="col-md-12">
+                                    <div class="col-md-12 col-sm-10">
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <input type="tel" class="required form-control  number ftpn"
@@ -138,7 +138,7 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                                         </div>
                                     </div>
 
-                                    <div class="col-md-12">
+                                    <div class="col-md-12 col-sm-10">
                                         <select name="service" class="required form-control" data-name="Service"
                                             required>
                                             <option selected="" disabled="">Select Service</option>
@@ -150,7 +150,7 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                                             <option value="All">All</option>
                                         </select>
                                     </div>
-                                    <div class="col-md-12">
+                                    <div class="col-md-12 col-sm-10">
                                         <select name="noofpages" class="required form-control" data-name="noofpages"
                                             required>
                                             <option selected="" disabled="">Number of Pages</option>
@@ -160,11 +160,11 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                                             <option value="200+">200+</option>
                                         </select>
                                     </div>
-                                    <div class="col-md-12">
+                                    <div class="col-md-12 col-sm-10">
                                         <textarea autocomplete="nope" name="message" class="form-control"
                                             placeholder=".To help us understand better, enter a brief description about your project."></textarea>
                                     </div>
-                                    <div class="col-md-12 ">
+                                    <div class="col-md-12 col-sm-10 ">
                                         <div class="btnsub show-s">
                                             <div id="formResult"></div>
                                             <button type="submit" name="send_reserve_req"
