@@ -1059,8 +1059,8 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                             });
                         });
                     }, 1000);
+                    startNotificationSound();
                 }
-                startNotificationSound();
             }
 
             function stopBlinkingTitle() {
