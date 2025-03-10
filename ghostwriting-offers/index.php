@@ -1036,7 +1036,7 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
             var afkTime = 3000; // 30 seconds for AFK detection
             var tabAwayTime = 1000; // 10 seconds before blinking starts
             var soundInterval = null;
-            var soundTimeout = 2000;
+            var soundTimeout = 20000;
 
             zE(function() {
                 zE.activate();
@@ -1045,7 +1045,6 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
             function startBlinkingTitle() {
                 if (!blinkInterval) {
                     blinkInterval = setInterval(function() {
-                        
                         zE(function() {
                             $zopim(function() {
                                 $zopim.livechat.setOnUnreadMsgs(unread);
