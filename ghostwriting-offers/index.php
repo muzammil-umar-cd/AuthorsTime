@@ -1047,14 +1047,14 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                     blinkInterval = setInterval(function() {
                         zE(function() {
                             $zopim(function() {
-                                $zopim.livechat.setOnUnreadMsgs(unread);
+                                var unreadCount = $zopim.livechat.getUnreadMessages();
 
-                                function unread(number) {
-                                    if (number >= 1) {
-                                        document.title = (document.title === originalTitle) ? attentionTitle : originalTitle;
-                                    }else{
-                                        document.title = (document.title === originalTitle) ? attentionTitle2 : originalTitle;
-                                    }
+                                if (unreadCount >= 1) {
+                                    document.title = (document.title === originalTitle) ? attentionTitle : originalTitle;
+                                    hasUnreadMessage = true;
+                                } else {
+                                    document.title = (document.title === originalTitle) ? attentionTitle2 : originalTitle;
+                                    hasUnreadMessage = false;
                                 }
                             });
                         });
@@ -1062,6 +1062,8 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                     startNotificationSound();
                 }
             }
+
+
 
             function stopBlinkingTitle() {
                 if (blinkInterval) {
