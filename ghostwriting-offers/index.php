@@ -1005,6 +1005,7 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
         </div>
     </div>
     <!--form Modal Popup-->
+    <audio style="display: none;" id="notificationSound" src="assets/offer/notification.mp3" playsinline="" preload="auto"></audio>
 
     <script src="assets/offer/js/plugin.js"></script>
     <script>
@@ -1022,6 +1023,105 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
                     form.classList.add("was-validated");
                 }
             });
+        });
+    </script>
+    <script>
+        $(document).ready(function() {
+            var originalTitle = document.title;
+            var attentionTitle = "💬 New message!";
+            var attentionTitle2 = "💬 You're Missing a Big Discount!";
+            var blinkInterval = null;
+            var afkTimeout = null;
+            var isAFK = false;
+            var afkTime = 3000; // 30 seconds for AFK detection
+            var tabAwayTime = 1000; // 10 seconds before blinking starts
+            var soundInterval = null;
+            var soundTimeout = 2000;
+
+            zE(function() {
+                zE.activate();
+            });
+
+            function startBlinkingTitle() {
+                if (!blinkInterval) {
+                    blinkInterval = setInterval(function() {
+                        
+                        zE(function() {
+                            $zopim(function() {
+                                $zopim.livechat.setOnUnreadMsgs(unread);
+
+                                function unread(number) {
+                                    if (number >= 1) {
+                                        document.title = (document.title === originalTitle) ? attentionTitle : originalTitle;
+                                    }else{
+                                        document.title = (document.title === originalTitle) ? attentionTitle2 : originalTitle;
+                                    }
+                                }
+                            });
+                        });
+                    }, 1000);
+                }
+                startNotificationSound();
+            }
+
+            function stopBlinkingTitle() {
+                if (blinkInterval) {
+                    clearInterval(blinkInterval);
+                    blinkInterval = null;
+                    document.title = originalTitle;
+                }
+                stopNotificationSound();
+            }
+
+            function resetAfkTimer() {
+                if (afkTimeout) {
+                    clearTimeout(afkTimeout);
+                }
+                isAFK = false;
+                afkTimeout = setTimeout(function() {
+                    isAFK = true;
+                    startBlinkingTitle();
+                }, afkTime);
+            }
+
+            $(window).on("blur", function() {
+                setTimeout(function() {
+                    if (document.hidden) {
+                        startBlinkingTitle();
+                    }
+                }, tabAwayTime);
+            });
+
+            $(window).on("focus", function() {
+                stopBlinkingTitle();
+                resetAfkTimer();
+            });
+
+
+            function startNotificationSound() {
+                if (!soundInterval) {
+                    soundInterval = setInterval(function() {
+                        document.getElementById("notificationSound").play();
+                    }, soundTimeout);
+                }
+            }
+
+            function stopNotificationSound() {
+                if (soundInterval) {
+                    clearInterval(soundInterval);
+                    soundInterval = null;
+                }
+            }
+
+            function simulateNewChatMessage() {
+                if (isAFK) {
+                    startBlinkingTitle();
+                }
+            }
+
+            setTimeout(simulateNewChatMessage, 1000);
+
+            resetAfkTimer();
         });
     </script>
     <script>
