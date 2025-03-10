@@ -1036,7 +1036,7 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
             var afkTime = 3000; // 30 seconds for AFK detection
             var tabAwayTime = 1000; // 10 seconds before blinking starts
             var soundInterval = null;
-            var soundTimeout = 20000;
+            var soundTimeout = 60000;
 
             zE(function() {
                 zE.activate();
@@ -1045,19 +1045,30 @@ $currentFullURL = "http" . (isset($_SERVER['HTTPS']) ? "s" : "") . "://" . $_SER
             function startBlinkingTitle() {
                 if (!blinkInterval) {
                     blinkInterval = setInterval(function() {
-                        zE(function() {
-                            $zopim(function() {
-                                var unreadCount = $zopim.livechat.getUnreadMessages();
-
-                                if (unreadCount >= 1) {
+                        $zopim(function() {
+                            $zopim.livechat.setOnUnreadMsgs(function(numUnread){
+                                if(numUnread > 0 && !$zopim.livechat.window.getDisplay()) {
                                     document.title = (document.title === originalTitle) ? attentionTitle : originalTitle;
                                     hasUnreadMessage = true;
-                                } else {
+                                }else {
                                     document.title = (document.title === originalTitle) ? attentionTitle2 : originalTitle;
                                     hasUnreadMessage = false;
                                 }
                             });
                         });
+                        // zE(function() {
+                        //     $zopim(function() {
+                        //         var unreadCount = $zopim.livechat.getUnreadMessages();
+
+                        //         if (unreadCount >= 1) {
+                        //             document.title = (document.title === originalTitle) ? attentionTitle : originalTitle;
+                        //             hasUnreadMessage = true;
+                        //         } else {
+                        //             document.title = (document.title === originalTitle) ? attentionTitle2 : originalTitle;
+                        //             hasUnreadMessage = false;
+                        //         }
+                        //     });
+                        // });
                     }, 1000);
                     startNotificationSound();
                 }
